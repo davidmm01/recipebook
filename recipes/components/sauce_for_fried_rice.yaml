@@ -6,6 +6,7 @@ source:
   url: https://savorthebest.com/sauce-for-fried-rice/
   type: copy
   modifications: minimal
+  submitter: croach
 type: component
 descriptors:
   - sauce

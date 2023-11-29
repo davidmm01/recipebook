@@ -1,0 +1,21 @@
+---
+name: Recipe name (should match file name without being snake case lower letter)
+date_added: 2023-11-27
+source:
+  name: string
+  url: https://www.therecipesource.com/the-recipe
+  type: copy/pimping/original/research inspired
+  modifications: string
+  submitter: string
+type: meal/component
+descriptors:
+  - string
+cuisine: string
+ingredients:
+  - string
+instructions:
+  - string
+usage:
+  - string
+notes:
+  - string

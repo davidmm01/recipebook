@@ -1,2 +1,35 @@
-- add oyster sauce
-- add soy sauce
+---
+name: Ez Mapo Tofu
+date_added: 2023-11-25
+source:
+  name:
+  url:
+  type: pimping/original/research inspired
+  modifications:
+  submitter: croach
+type: meal
+descriptors:
+  - tofu
+  - pork
+  - spicy
+  - rice
+cuisine: chinese
+ingredients:
+  - neutral oil
+  - 2 packets of Lee Kum Kee mapo tofy sauce
+  - 1 brown onion, sliced finely
+  - 2 cloves garlic, grated/sliced/chopped
+  - 1 knob of ginger, grated/sliced/chopped
+  - 1 tablespoon oyster sauce
+  - 2 teaspoons soy sauce
+  - 500g pork mince
+  - 900g tofu, cut into cubes
+  - spring onions (garnish, optional)
+instructions:
+  -
+usage:
+  - Serve with rice
+notes:
+  -
+next:
+  - the added oyster sauce and soy sauce was a guess at what i did, validate this and iterate
