@@ -1,13 +1,13 @@
 ---
-name: Recipe name (should match file name without being snake case lower letter)
-date_added: 2023-11-27
+name: string # should match file name without being snake case lower letter
+date_added: 2023-11-27 # date?
 source:
   name: string
-  url: https://www.therecipesource.com/the-recipe
-  type: copy/pimping/original/research inspired
+  url: string # https://www.therecipesource.com/the-recipe
+  type: string #copy/pimping/original/research inspired
   modifications: string
   submitter: string
-type: meal/component
+type: string # meal/component
 descriptors:
   - string
 cuisine: string
@@ -19,3 +19,4 @@ usage:
   - string
 notes:
   - string
+next: []string
