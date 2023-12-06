@@ -61,35 +61,16 @@ func main() {
 			continue
 		}
 
-		// fmt.Printf("Unmarshalled %s successfully\n", filename)
-
-		// fmt.Println("recipe.Name:", recipe.Name)
-		// fmt.Println("recipe.DateAdded:", recipe.DateAdded)
-		// fmt.Println("recipe.Source:", recipe.Source)
-		// fmt.Println("recipe.Source.Name:", recipe.Source.Name)
-		// fmt.Println("recipe.Source.Modifications:", recipe.Source.Modifications)
-		// fmt.Println("recipe.Source.Submitter:", recipe.Source.Submitter)
-		// fmt.Println("recipe.Source.Url:", recipe.Source.Url)
-		// fmt.Println("recipe.Source:", recipe.Source)
-		// fmt.Println("recipe.Type:", recipe.Type)
-		// fmt.Println("recipe.Descriptors:", recipe.Descriptors)
-		// fmt.Println("recipe.Cuisine:", recipe.Cuisine)
-		// fmt.Println("recipe.Ingredients:", recipe.Ingredients)
-		// fmt.Println("recipe.Instructions:", recipe.Instructions)
-		// fmt.Println("recipe.Usage:", recipe.Usage)
-		// fmt.Println("recipe.Notes:", recipe.Notes)
-		// fmt.Println("recipe.Next:", recipe.Next)
-
 		err = validate.Struct(recipe)
 		if err != nil {
 			errCount += 1
-			fmt.Printf("  error validating struct for %s: %v\n", filename, err)
-			fmt.Printf("  %s\n", err.Error())
+			fmt.Printf("💣error validating struct for %s\n%v\n", filename, err)
 			err = nil
 			continue
 		}
 
 		passCount += 1
+		fmt.Println("💚 PASS")
 	}
 
 	var emoji string
