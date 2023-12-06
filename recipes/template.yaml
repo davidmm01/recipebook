@@ -1,5 +1,5 @@
 ---
-name: string # should match file name without being snake case lower letter
+name: Template # should match file name without being snake case lower letter
 date_added: 2023-11-27 # date?
 source:
   name: string
@@ -7,7 +7,7 @@ source:
   type: string #copy/pimping/original/research inspired
   modifications: string
   submitter: string
-type: string # meal/component
+type: meal # meal/component
 descriptors:
   - string
 cuisine: string
@@ -19,4 +19,5 @@ usage:
   - string
 notes:
   - string
-next: []string
+next:
+  - string
