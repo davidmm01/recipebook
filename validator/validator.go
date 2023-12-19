@@ -4,8 +4,12 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"regexp"
+	"strings"
 
 	"github.com/go-playground/validator/v10"
+	"golang.org/x/text/cases"
+	"golang.org/x/text/language"
 	"gopkg.in/yaml.v3"
 )
 
@@ -33,6 +37,9 @@ const RECIPES_DIR = "recipes/"
 // use a single instance of Validate, it caches struct info
 var validate *validator.Validate
 
+// fileNameRegexStr only matches strings that are lower case, snake case, and end in the `.yaml`
+const fileNameRegexStr = `[a-z]+(_[a-z]+)*.yaml$`
+
 func main() {
 	files, err := os.ReadDir(RECIPES_DIR)
 	if err != nil {
@@ -40,14 +47,23 @@ func main() {
 	}
 
 	validate = validator.New(validator.WithRequiredStructEnabled())
-	errCount := 0
 	passCount := 0
 
-	for i, f := range files {
-		filename := fmt.Sprintf("%s%s", RECIPES_DIR, f.Name())
-		fmt.Printf("%d. %s\n", i+1, filename)
+	fileNameRegex := regexp.MustCompile(fileNameRegexStr)
 
-		contents, err := os.ReadFile(filename)
+	for i, f := range files {
+		fileName := f.Name()
+		filePath := fmt.Sprintf("%s%s", RECIPES_DIR, fileName)
+		fmt.Printf("%d. %s\n", i+1, filePath)
+
+		// TODO: collect up more errors before erroring out
+
+		if !fileNameRegex.Match([]byte(fileName)) {
+			fmt.Printf("💣 filename '%s' does not conform to lower case, snake case, or missing extension '.yaml'\n", fileName)
+			continue
+		}
+
+		contents, err := os.ReadFile(filePath)
 		if err != nil {
 			log.Fatalf("💣error trying to read file: %v", err)
 		}
@@ -55,16 +71,29 @@ func main() {
 		recipe := Recipe{}
 		err = yaml.Unmarshal([]byte(contents), &recipe)
 		if err != nil {
-			errCount += 1
-			fmt.Printf("💣error unmarhsalling %s: %v\n", filename, err)
+			fmt.Printf("💣error unmarhsalling %s: %v\n", filePath, err)
 			err = nil
 			continue
 		}
 
 		err = validate.Struct(recipe)
 		if err != nil {
-			errCount += 1
-			fmt.Printf("💣error validating struct for %s\n%v\n", filename, err)
+			fmt.Printf("💣error validating struct for %s\n%v\n", filePath, err)
+			err = nil
+			continue
+		}
+
+		// the name of the recipe should be the title case representation of the filename
+		c := cases.Title(language.English)
+		fileNameNoExt := fileName[:len(fileName)-5]
+		fileNameNoExtSpaces := strings.ReplaceAll(fileNameNoExt, "_", " ")
+		fileNameAsTitleCase := c.String(fileNameNoExtSpaces)
+		recipeNameIgnoreApostrophes := strings.ReplaceAll(recipe.Name, "'", "")
+
+		if recipeNameIgnoreApostrophes != fileNameAsTitleCase {
+			fmt.Printf("💣recipe name '%s' should be the title case variation of file name '%s'\n", recipe.Name, fileName)
+			fmt.Println("        recipe.Name:", recipe.Name)
+			fmt.Println("fileNameAsTitleCase:", fileNameAsTitleCase)
 			err = nil
 			continue
 		}
@@ -72,6 +101,8 @@ func main() {
 		passCount += 1
 		fmt.Println("💚 PASS")
 	}
+
+	errCount := len(files) - passCount
 
 	var emoji string
 	if errCount == 0 {
