@@ -16,11 +16,13 @@ import (
 type Recipe struct {
 	Name      string   `validate:"required"`
 	DateAdded string   `yaml:"date_added" validate:"required"`
-	Source    struct { // revisit Source, consider turning into Author blob instead?
-		Name          string
-		Url           string
-		Modifications string
-		Submitter     string
+	Source    struct { // Source should be an array
+		Name          string // maybe keep this
+		Url           string // keep this
+		Modifications string // see below RE note
+		// lots of recipes have Type, but i think its pointless and can be replaced anyway
+		Submitter string // Submitter shoudl probably be its own thing
+		// replace type and modification with generic note section?
 	}
 	Type         string   `validate:"required,oneof=component meal"` // TODO: make enum
 	Descriptors  []string `validate:"required"`
@@ -32,6 +34,7 @@ type Recipe struct {
 	Next         []string
 }
 
+// relative path from makefile to the recipe files
 const RECIPES_DIR = "recipes/"
 
 // use a single instance of Validate, it caches struct info
@@ -65,20 +68,20 @@ func main() {
 
 		contents, err := os.ReadFile(filePath)
 		if err != nil {
-			log.Fatalf("💣error trying to read file: %v", err)
+			log.Fatalf("💣 error trying to read file: %v", err)
 		}
 
 		recipe := Recipe{}
 		err = yaml.Unmarshal([]byte(contents), &recipe)
 		if err != nil {
-			fmt.Printf("💣error unmarhsalling %s: %v\n", filePath, err)
+			fmt.Printf("💣 error unmarhsalling %s: %v\n", filePath, err)
 			err = nil
 			continue
 		}
 
 		err = validate.Struct(recipe)
 		if err != nil {
-			fmt.Printf("💣error validating struct for %s\n%v\n", filePath, err)
+			fmt.Printf("💣 error validating struct for %s\n%v\n", filePath, err)
 			err = nil
 			continue
 		}
@@ -89,7 +92,6 @@ func main() {
 		fileNameNoExtSpaces := strings.ReplaceAll(fileNameNoExt, "_", " ")
 		fileNameAsTitleCase := c.String(fileNameNoExtSpaces)
 		recipeNameIgnoreApostrophes := strings.ReplaceAll(recipe.Name, "'", "")
-
 		if recipeNameIgnoreApostrophes != fileNameAsTitleCase {
 			fmt.Printf("💣recipe name '%s' should be the title case variation of file name '%s'\n", recipe.Name, fileName)
 			fmt.Println("        recipe.Name:", recipe.Name)
