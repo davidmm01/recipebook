@@ -24,7 +24,7 @@ type Recipe struct {
 		Submitter string // Submitter shoudl probably be its own thing
 		// replace type and modification with generic note section?
 	}
-	Type         string   `validate:"required,oneof=component meal"` // TODO: make enum
+	Type         string   `validate:"required,oneof=component meal cocktail"` // TODO: make enum
 	Descriptors  []string `validate:"required"`
 	Cuisine      string   `validate:"required"`
 	Ingredients  []string `validate:"required"`

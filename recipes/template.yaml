@@ -7,7 +7,7 @@ source:
   type: string #copy/pimping/original/research inspired
   modifications: string
   submitter: string
-type: meal # meal/component
+type: meal # meal/component/cocktail
 descriptors:
   - string
 cuisine: string
