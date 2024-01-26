@@ -1,11 +1,10 @@
 ---
-draft: true
 title: "Title for your recipe"
-author: {{ .Site.Params.front.defaultAuthor | default "User" }}
-recipe_image: {{ .Site.Params.front.defaultImage | default "images/defaultImage.png" }} #The image for your recipe
-image_width: {{ .Site.Params.front.defaultImageWidth | default 512 }}
-image_height: {{ .Site.Params.front.defaultImageHeight | default 512 }}
-date: {{ .Date }}
+author: User
+recipe_image: images/defaultImage.png #The image for your recipe
+image_width: 512
+image_height: 512
+date: 2024-01-26T17:32:43+11:00
 tags: ["tag1", "tag2"] #tags for your recipe
 tagline: "A short tagline for your recipe"
 servings: 4
