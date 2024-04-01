@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Beef on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/beef/</link>
+    <description>Recent content in Beef on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/beef/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Qeema Mince</title>
+      <link>http://localhost:1313/posts/qeema_mince/</link>
+      <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/qeema_mince/</guid>
+      <description>Ingredients 3 tbsp vegetable or canola oil, or other neutral oil 18g ginger, finely minced or as paste 15g garlic, finely minced or as paste 1 large onion, finely diced 500g beef mince (ground beef) 1 tsp salt 1 tbsp kashmiri chilli 1 heaped tsp garam masala 1 heaped tsp cumin powder 1 heaped tsp coriander powder 1/2 tsp turmeric powder 1 cup water 1 green chilli coriander leaves Instructions Heat oil in a skillet over high heat.</description>
+    </item>
+    <item>
+      <title>Gyudon</title>
+      <link>http://localhost:1313/posts/gyudon/</link>
+      <pubDate>Wed, 29 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/gyudon/</guid>
+      <description>Ingredients 750g thinly sliced beef strips 2 onions, thinly sliced into long strips 3 cups boiling water 2 teaspoons dashi powder 90ml soy sauce 90ml mirin 45ml sake 2 tablespoons sugar 5 eggs, lightly beaten rice spring onion, sliced (garnish, optional) pickled ginger (garnish, optional) Instructions Put the rice cooker on in advance. In a pot combine water, dashi, soy sauce, mirin, sake and sugar. Stir until disolved. Once simmering, add onions and cook until soft.</description>
+    </item>
+    <item>
+      <title>Beef And Broccoli Noodles</title>
+      <link>http://localhost:1313/posts/beef_and_broccoli_noodles/</link>
+      <pubDate>Fri, 20 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/beef_and_broccoli_noodles/</guid>
+      <description>Ingredients 500g beef quick cooking beef, thinly sliced e.g. scotch, rump 1 1/2 tbsp peanut or vegetable oil 2 garlic cloves, finely chopped 1 onion, sliced 2 large heads of broccoli , broken into small florets 400g egg noodles (hokkien, lo mein, singapore - from the fridge) 1/2 cup / 125 ml water 1 tbsp cornflour / cornstarch 2 tbsp dark soy sauce 2 tbsp light soy sauce (bumped from OG of 1.</description>
+    </item>
+  </channel>
+</rss>

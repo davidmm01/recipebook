@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mince on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/mince/</link>
+    <description>Recent content in Mince on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/mince/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Qeema Mince</title>
+      <link>http://localhost:1313/posts/qeema_mince/</link>
+      <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/qeema_mince/</guid>
+      <description>Ingredients 3 tbsp vegetable or canola oil, or other neutral oil 18g ginger, finely minced or as paste 15g garlic, finely minced or as paste 1 large onion, finely diced 500g beef mince (ground beef) 1 tsp salt 1 tbsp kashmiri chilli 1 heaped tsp garam masala 1 heaped tsp cumin powder 1 heaped tsp coriander powder 1/2 tsp turmeric powder 1 cup water 1 green chilli coriander leaves Instructions Heat oil in a skillet over high heat.</description>
+    </item>
+    <item>
+      <title>Beef Mince Bulgogi</title>
+      <link>http://localhost:1313/posts/beef_mince_bulgogi/</link>
+      <pubDate>Sun, 24 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/beef_mince_bulgogi/</guid>
+      <description>Ingredients 4 spring onions 1 large brown onion ~400g of mushrooms, whatever kind (shitake, button, oyster, dried, some mix of these) 1 green chili (optional, garnish) 1 red capsicum (optional), for colour 1 green capsicum (optional), for colour 1kg beef mince 4 tbsp neutral-tasting oil 1 tbsp toasted sesame oil Generous pinch of toasted sesame seeds, to garnish 6 tbsp soy sauce 4 tbsp sugar 2 tbsp mirin 5 tbsp oyster sauce 4 tbsp minced garlic 2 tbsp toasted sesame oil Black pepper, to taste Small pinch of MSG Instructions Thinly slice the green onions, separating the whites and greens.</description>
+    </item>
+    <item>
+      <title>Chef John&#39;s Meatballs</title>
+      <link>http://localhost:1313/posts/chef_johns_meatballs/</link>
+      <pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/chef_johns_meatballs/</guid>
+      <description>Ingredients ⅓ cup plain bread crumbs ½ cup milk 2 tablespoons olive oil 1 onion, diced 500g ground beef 500g ground pork 2 eggs 2 tablespoons grated Parmesan cheese ¼ bunch fresh parsley, chopped 3 cloves garlic, crushed 2 teaspoons salt 1 teaspoon ground black pepper 1 teaspoon dried Italian herb seasoning ½ teaspoon red pepper flakes (optional) Instructions Cover a baking sheet with foil and spray lightly with cooking spray.</description>
+    </item>
+  </channel>
+</rss>

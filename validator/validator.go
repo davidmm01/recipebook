@@ -43,7 +43,8 @@ var validate *validator.Validate
 // fileNameRegexStr only matches strings that are lower case, snake case, and end in the `.yaml`
 const fileNameRegexStr = `[a-z]+(_[a-z]+)*.yaml$`
 
-func main() {
+func getValidRecipes(showOutput bool) []Recipe {
+	// TODO: I hate this showOutput
 	files, err := os.ReadDir(RECIPES_DIR)
 	if err != nil {
 		log.Fatalf("error trying to read directory: %v", err)
@@ -54,34 +55,48 @@ func main() {
 
 	fileNameRegex := regexp.MustCompile(fileNameRegexStr)
 
+	recipes := []Recipe{}
+
 	for i, f := range files {
 		fileName := f.Name()
 		filePath := fmt.Sprintf("%s%s", RECIPES_DIR, fileName)
-		fmt.Printf("%d. %s\n", i+1, filePath)
+
+		if showOutput {
+			fmt.Printf("%d. %s\n", i+1, filePath)
+		}
 
 		// TODO: collect up more errors before erroring out
 
 		if !fileNameRegex.Match([]byte(fileName)) {
-			fmt.Printf("💣 filename '%s' does not conform to lower case, snake case, or missing extension '.yaml'\n", fileName)
+			if showOutput {
+				fmt.Printf("💣 filename '%s' does not conform to lower case, snake case, or missing extension '.yaml'\n", fileName)
+			}
 			continue
 		}
 
 		contents, err := os.ReadFile(filePath)
 		if err != nil {
-			log.Fatalf("💣 error trying to read file: %v", err)
+			if showOutput {
+				fmt.Printf("💣 error trying to read file: %v", err)
+			}
+			continue
 		}
 
 		recipe := Recipe{}
 		err = yaml.Unmarshal([]byte(contents), &recipe)
 		if err != nil {
-			fmt.Printf("💣 error unmarhsalling %s: %v\n", filePath, err)
+			if showOutput {
+				fmt.Printf("💣 error unmarhsalling %s: %v\n", filePath, err)
+			}
 			err = nil
 			continue
 		}
 
 		err = validate.Struct(recipe)
 		if err != nil {
-			fmt.Printf("💣 error validating struct for %s\n%v\n", filePath, err)
+			if showOutput {
+				fmt.Printf("💣 error validating struct for %s\n%v\n", filePath, err)
+			}
 			err = nil
 			continue
 		}
@@ -93,25 +108,37 @@ func main() {
 		fileNameAsTitleCase := c.String(fileNameNoExtSpaces)
 		recipeNameIgnoreApostrophes := strings.ReplaceAll(recipe.Name, "'", "")
 		if recipeNameIgnoreApostrophes != fileNameAsTitleCase {
-			fmt.Printf("💣recipe name '%s' should be the title case variation of file name '%s'\n", recipe.Name, fileName)
-			fmt.Println("        recipe.Name:", recipe.Name)
-			fmt.Println("fileNameAsTitleCase:", fileNameAsTitleCase)
+			if showOutput {
+				fmt.Printf("💣recipe name '%s' should be the title case variation of file name '%s'\n", recipe.Name, fileName)
+				fmt.Println("        recipe.Name:", recipe.Name)
+				fmt.Println("fileNameAsTitleCase:", fileNameAsTitleCase)
+			}
 			err = nil
 			continue
 		}
 
 		passCount += 1
-		fmt.Println("💚 PASS")
+		recipes = append(recipes, recipe)
+		if showOutput {
+			fmt.Println("💚 PASS")
+		}
 	}
 
-	errCount := len(files) - passCount
+	if showOutput {
+		errCount := len(files) - passCount
 
-	var emoji string
-	if errCount == 0 {
-		emoji = "😎😎😎😎"
-	} else {
-		emoji = "💣💣💣💣"
+		var emoji string
+		if errCount == 0 {
+			emoji = "😎😎😎😎"
+		} else {
+			emoji = "💣💣💣💣"
+		}
+		fmt.Printf("\n%s FAIL = %d, PASS = %d %s\n", emoji, errCount, passCount, emoji)
+
+		if showOutput {
+			os.Exit(errCount)
+		}
 	}
-	fmt.Printf("\n%s FAIL = %d, PASS = %d %s\n", emoji, errCount, passCount, emoji)
-	os.Exit(errCount)
+
+	return recipes
 }
