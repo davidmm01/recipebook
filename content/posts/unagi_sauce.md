@@ -1,7 +1,7 @@
 ---
 title: Unagi Sauce
 date: 2023-09-14
-draft: true
+draft: false
 cuisine: japanese
 tags: ["sauce", "eel"]
 ---

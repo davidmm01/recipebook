@@ -1,7 +1,7 @@
 ---
 title: Baked Lemon Cream Fish
 date: 2023-11-22
-draft: true
+draft: false
 cuisine: western
 tags: ["fish", "lemon"]
 ---

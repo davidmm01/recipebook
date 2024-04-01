@@ -1,7 +1,7 @@
 ---
 title: Gin Jam Fizz
 date: 2023-12-27
-draft: true
+draft: false
 cuisine: string
 tags: ["gin"]
 ---

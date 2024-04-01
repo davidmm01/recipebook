@@ -1,7 +1,7 @@
 ---
 title: Gyudon
 date: 2023-11-29
-draft: true
+draft: false
 cuisine: japanese
 tags: ["beef", "rice"]
 ---

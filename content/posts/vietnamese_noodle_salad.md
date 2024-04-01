@@ -1,7 +1,7 @@
 ---
 title: Vietnamese Noodle Salad
 date: 2024-03-24
-draft: true
+draft: false
 cuisine: vietnamese
 tags: ["salad", "noodle"]
 ---

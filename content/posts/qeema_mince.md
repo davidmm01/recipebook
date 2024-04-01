@@ -1,7 +1,7 @@
 ---
 title: Qeema Mince
 date: 2024-03-17
-draft: true
+draft: false
 cuisine: indian
 tags: ["mince", "beef", "curry"]
 ---

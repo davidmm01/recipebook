@@ -1,7 +1,7 @@
 ---
 title: Lamb Shanks Massaman Curry
 date: 2023-09-18
-draft: true
+draft: false
 cuisine: thai
 tags: ["curry", "lamb shanks"]
 ---

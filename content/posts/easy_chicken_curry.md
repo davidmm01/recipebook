@@ -1,7 +1,7 @@
 ---
 title: Easy Chicken Curry
 date: 2023-09-24
-draft: true
+draft: false
 cuisine: indian
 tags: ["curry", "chicken"]
 ---

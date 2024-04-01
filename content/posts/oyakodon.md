@@ -1,7 +1,7 @@
 ---
 title: Oyakodon
 date: 2023-11-18
-draft: true
+draft: false
 cuisine: japanese
 tags: ["chicken", "egg", "rice bowl"]
 ---

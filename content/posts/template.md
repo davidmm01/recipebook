@@ -1,7 +1,7 @@
 ---
 title: Template
 date: 2023-11-27
-draft: true
+draft: false
 cuisine: string
 tags: ["string"]
 ---

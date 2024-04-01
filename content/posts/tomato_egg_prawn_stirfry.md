@@ -1,7 +1,7 @@
 ---
 title: Tomato Egg Prawn Stirfry
 date: 2023-12-01
-draft: true
+draft: false
 cuisine: chinese
 tags: ["chinese", "prawn", "egg", "tomato", "rice"]
 ---

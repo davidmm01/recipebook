@@ -24,7 +24,7 @@ func generateMarkdown(recipe Recipe) string {
 	markdown := "---\n"
 	markdown += fmt.Sprintf("title: %s\n", recipe.Name)
 	markdown += fmt.Sprintf("date: %s\n", recipe.DateAdded)
-	markdown += "draft: true\n"
+	markdown += "draft: false\n"
 	markdown += fmt.Sprintf("cuisine: %s\n", recipe.Cuisine)
 
 	tags := "["
