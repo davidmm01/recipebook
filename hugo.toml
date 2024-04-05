@@ -1,4 +1,4 @@
-baseURL = 'http://recipebook.org/'
+baseURL = '/'
 languageCode = 'en-us'
 sectionPagesMenu = "main"
 theme = 'recipebooktheme'

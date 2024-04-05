@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Prawn on My New Hugo Site</title>
-    <link>http://localhost:1313/tags/prawn/</link>
+    <link>//localhost:1313/tags/prawn/</link>
     <description>Recent content in Prawn on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 19 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/prawn/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/prawn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chilli Wine Garlic Prawn Pasta</title>
-      <link>http://localhost:1313/posts/chilli_wine_garlic_prawn_pasta/</link>
+      <link>//localhost:1313/posts/chilli_wine_garlic_prawn_pasta/</link>
       <pubDate>Tue, 19 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/chilli_wine_garlic_prawn_pasta/</guid>
+      <guid>//localhost:1313/posts/chilli_wine_garlic_prawn_pasta/</guid>
       <description>Ingredients 1kg prawns 360g linguine or similar 3 shallot, diced or half a white onion 2 red chilli, deseeded and diced 400 grams cherry tomatoes, halved 5 cloves garlic, finely sliced 1 cup white wine, 2 tbsp unsalted butter zest of 2 lemon 2 tbsp fresh chopped parsley 40 grams grated parmesan cheese plus extra for serving if desired Instructions Bring a large pot of salted water to boil for cooking the pasta.</description>
     </item>
     <item>
       <title>Tomato Egg Prawn Stirfry</title>
-      <link>http://localhost:1313/posts/tomato_egg_prawn_stirfry/</link>
+      <link>//localhost:1313/posts/tomato_egg_prawn_stirfry/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/tomato_egg_prawn_stirfry/</guid>
+      <guid>//localhost:1313/posts/tomato_egg_prawn_stirfry/</guid>
       <description>Ingredients 3 very large tomatoes 500g prawns 6 eggs 5 cloves of garlic, minced or chopped 4 spring onions, sliced and separated in two, half ingredient half garnish 2 tbsp oyster sauce 2 tsp sesame oil 2 tsp sugar 2 tsp chicken stock 1/2 tsp chicken salt 1/2 tsp pepper 2 tbsp corn starch 4 tbsp water Instructions Put the rice cooker on in advance Mix together the sauce by combining oyster sauce, sesame oil, sugar, chicken stock, salt and pepper.</description>
     </item>
   </channel>
