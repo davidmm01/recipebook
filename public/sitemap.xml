@@ -2,177 +2,177 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/tags/noodle/</loc>
+    <loc>http://localhost:1313/recipebook/tags/noodle/</loc>
     <lastmod>2024-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/salad/</loc>
+    <loc>http://localhost:1313/recipebook/tags/salad/</loc>
     <lastmod>2024-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/recipebook/tags/</loc>
     <lastmod>2024-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/vietnamese_noodle_salad/</loc>
+    <loc>http://localhost:1313/recipebook/posts/vietnamese_noodle_salad/</loc>
     <lastmod>2024-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/beef/</loc>
+    <loc>http://localhost:1313/recipebook/tags/beef/</loc>
     <lastmod>2024-03-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/curry/</loc>
+    <loc>http://localhost:1313/recipebook/tags/curry/</loc>
     <lastmod>2024-03-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/mince/</loc>
+    <loc>http://localhost:1313/recipebook/tags/mince/</loc>
     <lastmod>2024-03-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/qeema_mince/</loc>
+    <loc>http://localhost:1313/recipebook/posts/qeema_mince/</loc>
     <lastmod>2024-03-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/gin/</loc>
+    <loc>http://localhost:1313/recipebook/tags/gin/</loc>
     <lastmod>2023-12-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/gin_jam_fizz/</loc>
+    <loc>http://localhost:1313/recipebook/posts/gin_jam_fizz/</loc>
     <lastmod>2023-12-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/burger/</loc>
+    <loc>http://localhost:1313/recipebook/tags/burger/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/lamb/</loc>
+    <loc>http://localhost:1313/recipebook/tags/lamb/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/lamb_burgers/</loc>
+    <loc>http://localhost:1313/recipebook/posts/lamb_burgers/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/chilli_wine_garlic_prawn_pasta/</loc>
+    <loc>http://localhost:1313/recipebook/posts/chilli_wine_garlic_prawn_pasta/</loc>
     <lastmod>2023-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/pasta/</loc>
+    <loc>http://localhost:1313/recipebook/tags/pasta/</loc>
     <lastmod>2023-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/prawn/</loc>
+    <loc>http://localhost:1313/recipebook/tags/prawn/</loc>
     <lastmod>2023-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/chinese/</loc>
+    <loc>http://localhost:1313/recipebook/tags/chinese/</loc>
     <lastmod>2023-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/egg/</loc>
+    <loc>http://localhost:1313/recipebook/tags/egg/</loc>
     <lastmod>2023-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/rice/</loc>
+    <loc>http://localhost:1313/recipebook/tags/rice/</loc>
     <lastmod>2023-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/tomato/</loc>
+    <loc>http://localhost:1313/recipebook/tags/tomato/</loc>
     <lastmod>2023-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/tomato_egg_prawn_stirfry/</loc>
+    <loc>http://localhost:1313/recipebook/posts/tomato_egg_prawn_stirfry/</loc>
     <lastmod>2023-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/gyudon/</loc>
+    <loc>http://localhost:1313/recipebook/posts/gyudon/</loc>
     <lastmod>2023-11-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/string/</loc>
+    <loc>http://localhost:1313/recipebook/tags/string/</loc>
     <lastmod>2023-11-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/template/</loc>
+    <loc>http://localhost:1313/recipebook/posts/template/</loc>
     <lastmod>2023-11-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/ez_mapo_tofu/</loc>
+    <loc>http://localhost:1313/recipebook/posts/ez_mapo_tofu/</loc>
     <lastmod>2023-11-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/pork/</loc>
+    <loc>http://localhost:1313/recipebook/tags/pork/</loc>
     <lastmod>2023-11-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/spicy/</loc>
+    <loc>http://localhost:1313/recipebook/tags/spicy/</loc>
     <lastmod>2023-11-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/tofu/</loc>
+    <loc>http://localhost:1313/recipebook/tags/tofu/</loc>
     <lastmod>2023-11-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/baked_lemon_cream_fish/</loc>
+    <loc>http://localhost:1313/recipebook/posts/baked_lemon_cream_fish/</loc>
     <lastmod>2023-11-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/fish/</loc>
+    <loc>http://localhost:1313/recipebook/tags/fish/</loc>
     <lastmod>2023-11-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/lemon/</loc>
+    <loc>http://localhost:1313/recipebook/tags/lemon/</loc>
     <lastmod>2023-11-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/chicken/</loc>
+    <loc>http://localhost:1313/recipebook/tags/chicken/</loc>
     <lastmod>2023-11-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/fried/</loc>
+    <loc>http://localhost:1313/recipebook/tags/fried/</loc>
     <lastmod>2023-11-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/frozen-fish/</loc>
+    <loc>http://localhost:1313/recipebook/tags/frozen-fish/</loc>
     <lastmod>2023-11-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/oyakodon/</loc>
+    <loc>http://localhost:1313/recipebook/posts/oyakodon/</loc>
     <lastmod>2023-11-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/pineapple/</loc>
+    <loc>http://localhost:1313/recipebook/tags/pineapple/</loc>
     <lastmod>2023-11-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/rice-bowl/</loc>
+    <loc>http://localhost:1313/recipebook/tags/rice-bowl/</loc>
     <lastmod>2023-11-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/sweet_and_sour_fish/</loc>
+    <loc>http://localhost:1313/recipebook/posts/sweet_and_sour_fish/</loc>
     <lastmod>2023-11-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/beef_and_broccoli_noodles/</loc>
+    <loc>http://localhost:1313/recipebook/posts/beef_and_broccoli_noodles/</loc>
     <lastmod>2023-10-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/noodles/</loc>
+    <loc>http://localhost:1313/recipebook/tags/noodles/</loc>
     <lastmod>2023-10-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/beef_mince_bulgogi/</loc>
+    <loc>http://localhost:1313/recipebook/posts/beef_mince_bulgogi/</loc>
     <lastmod>2023-09-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/easy_chicken_curry/</loc>
+    <loc>http://localhost:1313/recipebook/posts/easy_chicken_curry/</loc>
     <lastmod>2023-09-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/lamb-shanks/</loc>
+    <loc>http://localhost:1313/recipebook/tags/lamb-shanks/</loc>
     <lastmod>2023-09-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/lamb_shanks_massaman_curry/</loc>
+    <loc>http://localhost:1313/recipebook/posts/lamb_shanks_massaman_curry/</loc>
     <lastmod>2023-09-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/sauce/</loc>
+    <loc>http://localhost:1313/recipebook/tags/sauce/</loc>
     <lastmod>2023-09-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/sauce_for_fried_rice/</loc>
+    <loc>http://localhost:1313/recipebook/posts/sauce_for_fried_rice/</loc>
     <lastmod>2023-09-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/chef_johns_meatballs/</loc>
+    <loc>http://localhost:1313/recipebook/posts/chef_johns_meatballs/</loc>
     <lastmod>2023-09-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/eel/</loc>
+    <loc>http://localhost:1313/recipebook/tags/eel/</loc>
     <lastmod>2023-09-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/unagi_sauce/</loc>
+    <loc>http://localhost:1313/recipebook/posts/unagi_sauce/</loc>
     <lastmod>2023-09-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/blue/</loc>
+    <loc>http://localhost:1313/recipebook/tags/blue/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/green/</loc>
+    <loc>http://localhost:1313/recipebook/tags/green/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/post-3/</loc>
+    <loc>http://localhost:1313/recipebook/posts/post-3/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/tags/red/</loc>
+    <loc>http://localhost:1313/recipebook/tags/red/</loc>
     <lastmod>2023-03-15T11:00:00-07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/post-2/</loc>
+    <loc>http://localhost:1313/recipebook/posts/post-2/</loc>
     <lastmod>2023-02-15T10:00:00-07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/post-1/</loc>
+    <loc>http://localhost:1313/recipebook/posts/post-1/</loc>
     <lastmod>2023-01-15T09:00:00-07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/</loc>
+    <loc>http://localhost:1313/recipebook/posts/</loc>
     <lastmod>2023-01-01T08:30:00-07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/</loc>
+    <loc>http://localhost:1313/recipebook/</loc>
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/recipebook/categories/</loc>
   </url>
 </urlset>

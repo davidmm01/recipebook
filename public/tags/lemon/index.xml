@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lemon on My New Hugo Site</title>
-    <link>//localhost:1313/tags/lemon/</link>
+    <link>http://localhost:1313/recipebook/tags/lemon/</link>
     <description>Recent content in Lemon on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 22 Nov 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/lemon/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/recipebook/tags/lemon/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Baked Lemon Cream Fish</title>
-      <link>//localhost:1313/posts/baked_lemon_cream_fish/</link>
+      <link>http://localhost:1313/recipebook/posts/baked_lemon_cream_fish/</link>
       <pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/baked_lemon_cream_fish/</guid>
+      <guid>http://localhost:1313/recipebook/posts/baked_lemon_cream_fish/</guid>
       <description>Ingredients 600g fish fillets 60g unsalted butter 1/2 cup cooking cream 3 cloves garlic, minced 30ml dijon mustard 1 lemon, juiced Salt &amp;amp; pepper fresh parsley, chopped (garnish) 1 lemon, cut into wedges (garnish) Instructions Preheat oven to 200°C (all oven types). Place fish in a baking dish - ensure the fish isn&amp;rsquo;t crammed in too snugly. See video or photos in post. Sprinkle both sides of fish with salt and pepper.</description>
     </item>
   </channel>

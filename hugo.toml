@@ -1,4 +1,5 @@
-baseURL = '/'
+baseURL = 'https://davidmm01.github.io/recipebook/'
+# https://discourse.gohugo.io/t/publication-on-github-pages-and-baseurl/43631
 languageCode = 'en-us'
 sectionPagesMenu = "main"
 theme = 'recipebooktheme'
