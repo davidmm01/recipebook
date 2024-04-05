@@ -1,4 +1,4 @@
-baseURL = 'https://davidmm01.github.io/'
+baseURL = 'http://recipebook.org/'
 languageCode = 'en-us'
 sectionPagesMenu = "main"
 theme = 'recipebooktheme'
