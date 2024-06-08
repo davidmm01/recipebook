@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://davidmm01.github.io/recipebook/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 
@@ -18,6 +18,6 @@ pageRef = '/tags'
 weight = 30
 
 [module]
-  [module.hugoVersion]
-    extended = false
-    min = "0.116.0"
+[module.hugoVersion]
+extended = false
+min = "0.116.0"
