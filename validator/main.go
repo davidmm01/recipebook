@@ -8,7 +8,7 @@ import (
 )
 
 var supportedCommands = []string{
-	"validate", "generate",
+	"validate", "serve",
 }
 
 func main() {
@@ -24,8 +24,7 @@ func main() {
 	switch command {
 	case "validate":
 		getValidRecipes(true)
-	case "generate":
-		recipes := getValidRecipes(false)
-		generateAll(recipes)
+	case "serve":
+		server()
 	}
 }
