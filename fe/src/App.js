@@ -2,6 +2,9 @@
 // App.js
 import React from "react";
 import "./App.css";
+
+
+
 class App extends React.Component {
     // Constructor
     constructor(props) {
@@ -25,6 +28,7 @@ class App extends React.Component {
                 });
             });
     }
+
     render() {
         const { DataisLoaded, recipes } = this.state;
         if (!DataisLoaded)
@@ -36,20 +40,13 @@ class App extends React.Component {
 
         return (
             <div className="App">
-                <h1 className="geeks">GeeksforGeeks</h1>
-                <h3>Fetch data from an api in react</h3>
+                <h1 >Recipebook</h1>
                 <div className="container">
                     {recipes.map((recipe) => (
                         <div className="recipe">
                             <ol>
                                 <div>
-                                    <strong>
-                                        {"User_Name: "}
-                                    </strong>
-                                    {recipe.Name},
-                                </div>
-                                <div>
-                                    Full_Name: {recipe.Name},
+                                    {recipe.Name}
                                 </div>
                             </ol>
                         </div>

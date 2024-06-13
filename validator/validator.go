@@ -43,7 +43,7 @@ var validate *validator.Validate
 // fileNameRegexStr only matches strings that are lower case, snake case, and end in the `.yaml`
 const fileNameRegexStr = `[a-z]+(_[a-z]+)*.yaml$`
 
-func getValidRecipes(showOutput bool) []Recipe {
+func getValidRecipes(showOutput bool) (recipes []Recipe, cuisines []string, descriptors []string) {
 	// TODO: I hate this showOutput
 	files, err := os.ReadDir(RECIPES_DIR)
 	if err != nil {
@@ -55,7 +55,9 @@ func getValidRecipes(showOutput bool) []Recipe {
 
 	fileNameRegex := regexp.MustCompile(fileNameRegexStr)
 
-	recipes := []Recipe{}
+	// set cusines & descriptors up as blank maps so that we can just get the unique ones
+	cuisinesMap := map[string]struct{}{}
+	descriptorsMap := map[string]struct{}{}
 
 	for i, f := range files {
 		fileName := f.Name()
@@ -119,10 +121,30 @@ func getValidRecipes(showOutput bool) []Recipe {
 
 		passCount += 1
 		recipes = append(recipes, recipe)
+
+		if _, ok := cuisinesMap[recipe.Cuisine]; !ok {
+			cuisinesMap[recipe.Cuisine] = struct{}{}
+		}
+		for _, descriptor := range recipe.Descriptors {
+			if _, ok := descriptorsMap[descriptor]; !ok {
+				descriptorsMap[descriptor] = struct{}{}
+			}
+		}
+
 		if showOutput {
 			fmt.Println("💚 PASS")
 		}
 	}
+
+	for key := range cuisinesMap {
+		cuisines = append(cuisines, key)
+	}
+	for key := range descriptorsMap {
+		descriptors = append(descriptors, key)
+	}
+
+	fmt.Println("cuisines:", cuisines)
+	fmt.Println("descriptors:", descriptors)
 
 	if showOutput {
 		errCount := len(files) - passCount
@@ -140,5 +162,5 @@ func getValidRecipes(showOutput bool) []Recipe {
 		}
 	}
 
-	return recipes
+	return recipes, cuisines, descriptors
 }

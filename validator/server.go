@@ -10,7 +10,7 @@ import (
 func recipesHandler(w http.ResponseWriter, r *http.Request) {
 	switch r.Method {
 	case "GET":
-		recipes := getValidRecipes(false)
+		recipes, _, _ := getValidRecipes(false)
 		// Just send out the JSON version of 'tom'
 		j, _ := json.Marshal(recipes)
 		enableCors(&w)
@@ -27,7 +27,6 @@ func enableCors(w *http.ResponseWriter) {
 
 func server() {
 	http.HandleFunc("/recipes", recipesHandler)
-
-	log.Println("Go!")
+	log.Println("and party and bullshit and")
 	http.ListenAndServe(":8080", nil)
 }
