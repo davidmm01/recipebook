@@ -1,17 +1,12 @@
-
-// App.js
 import React from "react";
-import "./App.css";
-import RecipeCard from "./components/RecipeCard"
-import Cuisines from "./components/Cuisines"
 
-class App extends React.Component {
+class Cuisines extends React.Component {
     // Constructor
     constructor(props) {
         super(props);
 
         this.state = {
-            recipes: [],
+            cuisines: [],
             DataisLoaded: false,
         };
     }
@@ -19,18 +14,18 @@ class App extends React.Component {
     // ComponentDidMount is used to
     // execute the code
     componentDidMount() {
-        fetch("http://localhost:8080/recipes")
+        fetch("http://localhost:8080/cuisines")
             .then((res) => res.json())
             .then((json) => {
                 this.setState({
-                    recipes: json,
+                    cuisines: json,
                     DataisLoaded: true,
                 });
             });
     }
 
     render() {
-        const { DataisLoaded, recipes } = this.state;
+        const { DataisLoaded, cuisines } = this.state;
         if (!DataisLoaded)
             return (
                 <div>
@@ -39,13 +34,12 @@ class App extends React.Component {
             );
 
         return (
-            <div>
-                <Cuisines />
+            <div className="App">
                 <div className="container">
-                    {recipes.map((recipe) => (
-                        <div className="recipe">
+                    {cuisines.map((cuisine) => (
+                        <div>
                             <ol>
-                                <RecipeCard name={recipe.Name}/>
+                                <div>{cuisine}</div>
                             </ol>
                         </div>
                     ))}
@@ -55,4 +49,4 @@ class App extends React.Component {
     }
 }
 
-export default App;
+export default Cuisines;
