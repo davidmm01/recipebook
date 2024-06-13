@@ -39,7 +39,7 @@ class Cuisines extends React.Component {
                     {cuisines.map((cuisine) => (
                         <div>
                             <ol>
-                                <div>{cuisine}</div>
+                                <div>{cuisine.Name} ({cuisine.Recipes})</div>
                             </ol>
                         </div>
                     ))}

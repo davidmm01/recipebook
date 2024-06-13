@@ -34,6 +34,16 @@ type Recipe struct {
 	Next         []string
 }
 
+type Cuisine struct {
+	Name    string
+	Recipes int
+}
+
+type Descriptor struct {
+	Name    string
+	Recipes int
+}
+
 // relative path from makefile to the recipe files
 const RECIPES_DIR = "recipes/"
 
@@ -43,7 +53,7 @@ var validate *validator.Validate
 // fileNameRegexStr only matches strings that are lower case, snake case, and end in the `.yaml`
 const fileNameRegexStr = `[a-z]+(_[a-z]+)*.yaml$`
 
-func getValidRecipes(showOutput bool) (recipes []Recipe, cuisines []string, descriptors []string) {
+func getValidRecipes(showOutput bool) (recipes []Recipe, cuisines []Cuisine, descriptors []Descriptor) {
 	// TODO: I hate this showOutput
 	files, err := os.ReadDir(RECIPES_DIR)
 	if err != nil {
@@ -56,8 +66,8 @@ func getValidRecipes(showOutput bool) (recipes []Recipe, cuisines []string, desc
 	fileNameRegex := regexp.MustCompile(fileNameRegexStr)
 
 	// set cusines & descriptors up as blank maps so that we can just get the unique ones
-	cuisinesMap := map[string]struct{}{}
-	descriptorsMap := map[string]struct{}{}
+	cuisinesMap := map[string]int{}
+	descriptorsMap := map[string]int{}
 
 	for i, f := range files {
 		fileName := f.Name()
@@ -122,12 +132,18 @@ func getValidRecipes(showOutput bool) (recipes []Recipe, cuisines []string, desc
 		passCount += 1
 		recipes = append(recipes, recipe)
 
-		if _, ok := cuisinesMap[recipe.Cuisine]; !ok {
-			cuisinesMap[recipe.Cuisine] = struct{}{}
+		_, ok := cuisinesMap[recipe.Cuisine]
+		if ok {
+			cuisinesMap[recipe.Cuisine]++
+		} else {
+			cuisinesMap[recipe.Cuisine] = 1
 		}
 		for _, descriptor := range recipe.Descriptors {
-			if _, ok := descriptorsMap[descriptor]; !ok {
-				descriptorsMap[descriptor] = struct{}{}
+			_, ok := descriptorsMap[descriptor]
+			if ok {
+				descriptorsMap[descriptor]++
+			} else {
+				descriptorsMap[descriptor] = 1
 			}
 		}
 
@@ -136,11 +152,13 @@ func getValidRecipes(showOutput bool) (recipes []Recipe, cuisines []string, desc
 		}
 	}
 
-	for key := range cuisinesMap {
-		cuisines = append(cuisines, key)
+	for key, value := range cuisinesMap {
+		cuisines = append(cuisines, Cuisine{Name: key, Recipes: value})
+		fmt.Printf("name=%s, value=%d\n", key, value)
 	}
-	for key := range descriptorsMap {
-		descriptors = append(descriptors, key)
+	for key, value := range descriptorsMap {
+		descriptors = append(descriptors, Descriptor{Name: key, Recipes: value})
+		fmt.Printf("name=%s, value=%d\n", key, value)
 	}
 
 	fmt.Println("cuisines:", cuisines)

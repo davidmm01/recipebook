@@ -7,6 +7,23 @@ import (
 	"net/http"
 )
 
+func descriptorsHandler(w http.ResponseWriter, r *http.Request) {
+	switch r.Method {
+	case "GET":
+		_, _, descriptors := getValidRecipes(false)
+		// Just send out the JSON version of 'tom'
+		j, err := json.Marshal(descriptors)
+		if err != nil {
+			fmt.Println("davo big problem looky 2")
+		}
+		enableCors(&w)
+		w.Write(j)
+	default:
+		w.WriteHeader(http.StatusMethodNotAllowed)
+		fmt.Fprintf(w, "I can't do that.")
+	}
+}
+
 func cuisinesHandler(w http.ResponseWriter, r *http.Request) {
 	switch r.Method {
 	case "GET":
@@ -45,6 +62,7 @@ func enableCors(w *http.ResponseWriter) {
 func server() {
 	http.HandleFunc("/recipes", recipesHandler)
 	http.HandleFunc("/cuisines", cuisinesHandler)
+	http.HandleFunc("/descriptors", descriptorsHandler)
 	log.Println("and party and bullshit and")
 	http.ListenAndServe(":8080", nil)
 }

@@ -1,18 +1,13 @@
-
-// App.js
 import React from "react";
-import "./App.css";
-import RecipeCard from "./components/RecipeCard"
-import Cuisines from "./components/Cuisines"
-import Descriptors from "./components/Descriptors"
 
-class App extends React.Component {
+// keep this as separate to cuisines since both will need to be different shortly
+class Descriptors extends React.Component {
     // Constructor
     constructor(props) {
         super(props);
 
         this.state = {
-            recipes: [],
+            descriptors: [],
             DataisLoaded: false,
         };
     }
@@ -20,18 +15,18 @@ class App extends React.Component {
     // ComponentDidMount is used to
     // execute the code
     componentDidMount() {
-        fetch("http://localhost:8080/recipes")
+        fetch("http://localhost:8080/descriptors")
             .then((res) => res.json())
             .then((json) => {
                 this.setState({
-                    recipes: json,
+                    descriptors: json,
                     DataisLoaded: true,
                 });
             });
     }
 
     render() {
-        const { DataisLoaded, recipes } = this.state;
+        const { DataisLoaded, descriptors } = this.state;
         if (!DataisLoaded)
             return (
                 <div>
@@ -40,14 +35,12 @@ class App extends React.Component {
             );
 
         return (
-            <div>
-                <Cuisines />
-                <Descriptors />
+            <div className="App">
                 <div className="container">
-                    {recipes.map((recipe) => (
-                        <div className="recipe">
+                    {descriptors.map((descriptor) => (
+                        <div>
                             <ol>
-                                <RecipeCard name={recipe.Name}/>
+                                <div>{descriptor.Name} ({descriptor.Recipes})</div>
                             </ol>
                         </div>
                     ))}
@@ -57,4 +50,4 @@ class App extends React.Component {
     }
 }
 
-export default App;
+export default Descriptors;
