@@ -43,6 +43,7 @@ class App extends React.Component {
             <div>
                 <Cuisines />
                 <Descriptors />
+                <h2>Recipes</h2>
                 <div className="container">
                     {recipes.map((recipe) => (
                         <div className="recipe">

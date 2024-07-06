@@ -34,16 +34,15 @@ class Cuisines extends React.Component {
             );
 
         return (
-            <div className="App">
-                <div className="container">
-                    {cuisines.map((cuisine) => (
-                        <div>
-                            <ol>
-                                <div>{cuisine.Name} ({cuisine.Recipes})</div>
-                            </ol>
-                        </div>
-                    ))}
-                </div>
+            <div className="container">
+                <h2>Cuisines</h2>
+                {cuisines.map((cuisine) => (
+                    <div>
+                        <ol>
+                            <div>{cuisine.Name} ({cuisine.Recipes})</div>
+                        </ol>
+                    </div>
+                ))}
             </div>
         );
     }

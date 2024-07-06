@@ -35,16 +35,15 @@ class Descriptors extends React.Component {
             );
 
         return (
-            <div className="App">
-                <div className="container">
-                    {descriptors.map((descriptor) => (
-                        <div>
-                            <ol>
-                                <div>{descriptor.Name} ({descriptor.Recipes})</div>
-                            </ol>
-                        </div>
-                    ))}
-                </div>
+            <div className="container">
+                <h2>Descriptors</h2>
+                {descriptors.map((descriptor) => (
+                    <div>
+                        <ol>
+                            <div>{descriptor.Name} ({descriptor.Recipes})</div>
+                        </ol>
+                    </div>
+                ))}
             </div>
         );
     }
