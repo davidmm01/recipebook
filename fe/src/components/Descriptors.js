@@ -40,7 +40,7 @@ class Descriptors extends React.Component {
                 {descriptors.map((descriptor) => (
                     <div>
                         <ol>
-                            <div>{descriptor.Name} ({descriptor.Recipes})</div>
+                            <div>{descriptor.Name} ({descriptor.Count})</div>
                         </ol>
                     </div>
                 ))}

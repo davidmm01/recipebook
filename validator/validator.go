@@ -35,13 +35,13 @@ type Recipe struct {
 }
 
 type Cuisine struct {
-	Name    string
-	Recipes int
+	Name  string
+	Count int
 }
 
 type Descriptor struct {
-	Name    string
-	Recipes int
+	Name  string
+	Count int
 }
 
 // relative path from makefile to the recipe files
@@ -153,11 +153,11 @@ func getValidRecipes(showOutput bool) (recipes []Recipe, cuisines []Cuisine, des
 	}
 
 	for key, value := range cuisinesMap {
-		cuisines = append(cuisines, Cuisine{Name: key, Recipes: value})
+		cuisines = append(cuisines, Cuisine{Name: key, Count: value})
 		fmt.Printf("name=%s, value=%d\n", key, value)
 	}
 	for key, value := range descriptorsMap {
-		descriptors = append(descriptors, Descriptor{Name: key, Recipes: value})
+		descriptors = append(descriptors, Descriptor{Name: key, Count: value})
 		fmt.Printf("name=%s, value=%d\n", key, value)
 	}
 
