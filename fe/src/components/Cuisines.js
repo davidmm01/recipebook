@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 import "./cuisines.css";
 
 // used the following to help make the button group
@@ -20,7 +19,7 @@ class Cuisines extends React.Component {
   setSelectedCuisineKey = (key) => {
     console.log("eat my eggs, key=", key);
     // on re-click of already selected cuisine, clear selection
-    if (this.state.selectedCuisineKey == key) {
+    if (this.state.selectedCuisineKey === key) {
       key = -1;
     }
     this.setState({ selectedCuisineKey: key });
