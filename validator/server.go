@@ -44,6 +44,8 @@ func cuisinesHandler(w http.ResponseWriter, r *http.Request) {
 func recipesHandler(w http.ResponseWriter, r *http.Request) {
 	switch r.Method {
 	case "GET":
+		cuisineParam := r.URL.Query().Get("cuisine")
+		fmt.Println("@@@@@@@@@@@@@@@@@@@@ cusineParam:", cuisineParam)
 		recipes, _, _ := getValidRecipes(false)
 		// Just send out the JSON version of 'tom'
 		j, _ := json.Marshal(recipes)

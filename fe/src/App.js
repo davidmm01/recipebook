@@ -31,9 +31,26 @@ class App extends React.Component {
       });
   }
 
+  getRecipes(latestCusineSelection) {
+    if (latestCusineSelection != "") {
+      var queryParam = "?cuisine=" + latestCusineSelection;
+    } else {
+      var queryParam = "";
+    }
+    fetch("http://localhost:8080/recipes" + queryParam)
+      .then((res) => res.json())
+      .then((json) => {
+        this.setState({
+          recipes: json,
+          DataisLoaded: true,
+        });
+      });
+  }
+
   cuisineSelectHandler(cuisineSelection) {
     this.setState({ cuisineSelected: cuisineSelection });
     console.log("cusuine selected in the App:", cuisineSelection);
+    this.getRecipes(cuisineSelection);
   }
 
   render() {
