@@ -11,9 +11,11 @@ class App extends React.Component {
     super(props);
 
     this.state = {
+      cuisineSelected: "",
       recipes: [],
       DataisLoaded: false,
     };
+    this.cuisineSelectHandler = this.cuisineSelectHandler.bind(this);
   }
 
   // ComponentDidMount is used to
@@ -29,8 +31,13 @@ class App extends React.Component {
       });
   }
 
+  cuisineSelectHandler(cuisineSelection) {
+    this.setState({ cuisineSelected: cuisineSelection });
+    console.log("cusuine selected in the App:", cuisineSelection);
+  }
+
   render() {
-    const { DataisLoaded, recipes } = this.state;
+    const { DataisLoaded, recipes, cuisineSelected } = this.state;
     if (!DataisLoaded)
       return (
         <div>
@@ -40,7 +47,7 @@ class App extends React.Component {
 
     return (
       <div>
-        <Cuisines />
+        <Cuisines selectedCuisine={this.cuisineSelectHandler} />
         <Descriptors />
         <h2>Recipes</h2>
         <div className="container">

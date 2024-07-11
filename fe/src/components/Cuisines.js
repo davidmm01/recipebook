@@ -13,21 +13,37 @@ class Cuisines extends React.Component {
       cuisines: [],
       DataisLoaded: false,
       selectedCuisineKey: -1,
+      selectedCuisine: "",
     };
   }
 
-  setSelectedCuisineKey = (key) => {
-    console.log("eat my eggs, key=", key);
+  setSelectedCuisineState = (key) => {
     // on re-click of already selected cuisine, clear selection
     if (this.state.selectedCuisineKey === key) {
-      key = -1;
+      this.setState(
+        {
+          selectedCuisineKey: -1,
+          selectedCuisine: "",
+        },
+        () => console.log(this.state)
+      );
+      this.props.selectedCuisine("");
+    } else {
+      this.setState(
+        {
+          selectedCuisineKey: key,
+          selectedCuisine: this.state.cuisines[key].Name,
+        },
+        console.log(this.state)
+      );
+      this.props.selectedCuisine(this.state.cuisines[key].Name);
     }
-    this.setState({ selectedCuisineKey: key });
   };
 
   // ComponentDidMount is used to
   // execute the code
   componentDidMount() {
+    this.props.selectedCuisine(this.state.selectedCuisine);
     fetch("http://localhost:8080/cuisines")
       .then((res) => res.json())
       .then((json) => {
@@ -56,7 +72,7 @@ class Cuisines extends React.Component {
               <button
                 key={i}
                 name={cuisine.Name}
-                onClick={() => this.setSelectedCuisineKey(i)}
+                onClick={() => this.setSelectedCuisineState(i)}
                 className={
                   i === this.state.selectedCuisineKey
                     ? "customButton active"
