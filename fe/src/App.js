@@ -64,8 +64,10 @@ class App extends React.Component {
 
     return (
       <div>
-        <Cuisines selectedCuisine={this.cuisineSelectHandler} />
-        <Descriptors />
+        <div className="grid-container">
+          <Cuisines selectedCuisine={this.cuisineSelectHandler} />
+          <Descriptors />
+        </div>
         <h2>Recipes</h2>
         <div className="container">
           {recipes.map((recipe) => (

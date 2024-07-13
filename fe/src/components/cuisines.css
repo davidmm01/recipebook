@@ -14,3 +14,15 @@
     background-color: rgb(25, 26, 24);
     border: 1.5px solid rgb(25, 26, 24);
     }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 1px;
+}
+
+.grid-item {
+  padding: 2px;
+  font-size: 30px;
+  text-align: center;
+}

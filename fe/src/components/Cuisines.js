@@ -64,26 +64,28 @@ class Cuisines extends React.Component {
       );
 
     return (
-      <div className="container">
+      <div>
         <h2>Cuisines</h2>
-        {cuisines.map((cuisine, i) => (
-          <div>
-            <ol>
-              <button
-                key={i}
-                name={cuisine.Name}
-                onClick={() => this.setSelectedCuisineState(i)}
-                className={
-                  i === this.state.selectedCuisineKey
-                    ? "customButton active"
-                    : "customButton"
-                }
-              >
-                {cuisine.Name} ({cuisine.Count})
-              </button>
-            </ol>
-          </div>
-        ))}
+        <div className="container grid-container">
+          {cuisines.map((cuisine, i) => (
+            <div>
+              <ol>
+                <button
+                  key={i}
+                  name={cuisine.Name}
+                  onClick={() => this.setSelectedCuisineState(i)}
+                  className={
+                    i === this.state.selectedCuisineKey
+                      ? "grid-item customButton active"
+                      : "grid-item customButton"
+                  }
+                >
+                  {cuisine.Name} ({cuisine.Count})
+                </button>
+              </ol>
+            </div>
+          ))}
+        </div>
       </div>
     );
   }
