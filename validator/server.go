@@ -14,7 +14,7 @@ func descriptorsHandler(w http.ResponseWriter, r *http.Request) {
 		// Just send out the JSON version of 'tom'
 		j, err := json.Marshal(descriptors)
 		if err != nil {
-			fmt.Println("davo big problem looky 2")
+			fmt.Println("davo big problem looky, descriptors:", descriptors)
 		}
 		enableCors(&w)
 		w.Write(j)
@@ -31,7 +31,7 @@ func cuisinesHandler(w http.ResponseWriter, r *http.Request) {
 		// Just send out the JSON version of 'tom'
 		j, err := json.Marshal(cuisines)
 		if err != nil {
-			fmt.Println("davo big problem looky")
+			fmt.Println("davo big problem looky, cuisines:", cuisines)
 		}
 		enableCors(&w)
 		w.Write(j)
