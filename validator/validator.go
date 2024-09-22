@@ -154,15 +154,15 @@ func getValidRecipes(showOutput bool) (recipes []Recipe, cuisines []Cuisine, des
 
 	for key, value := range cuisinesMap {
 		cuisines = append(cuisines, Cuisine{Name: key, Count: value})
-		fmt.Printf("name=%s, value=%d\n", key, value)
+		// fmt.Printf("name=%s, value=%d\n", key, value)
 	}
 	for key, value := range descriptorsMap {
 		descriptors = append(descriptors, Descriptor{Name: key, Count: value})
-		fmt.Printf("name=%s, value=%d\n", key, value)
+		// fmt.Printf("name=%s, value=%d\n", key, value)
 	}
 
-	fmt.Println("cuisines:", cuisines)
-	fmt.Println("descriptors:", descriptors)
+	// fmt.Println("cuisines:", cuisines)
+	// fmt.Println("descriptors:", descriptors)
 
 	if showOutput {
 		errCount := len(files) - passCount
