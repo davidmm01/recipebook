@@ -1,8 +1,9 @@
 validate:
-	go run validator --command validate
-
-generate:
-	go run validator --command generate
+	go run backend --command validate
 
 serve:
-	go run validator --command serve
+	go run backend --command serve
+
+stack:
+	docker-compose build --no-cache
+	docker-compose up
