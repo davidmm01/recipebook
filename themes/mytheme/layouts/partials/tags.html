@@ -1,0 +1,3 @@
+{{ range .Params.tags }}
+  <a href="{{ add (absURL `recipebook/tags/`) (.) }}">{{ . }}</a>
+{{ end }}

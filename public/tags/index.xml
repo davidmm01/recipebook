@@ -4,10 +4,38 @@
     <title>Tags on My New Hugo Site</title>
     <link>http://localhost:1313/recipebook/tags/</link>
     <description>Recent content in Tags on My New Hugo Site</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/recipebook/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beef</title>
+      <link>http://localhost:1313/recipebook/tags/beef/</link>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/recipebook/tags/beef/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Honey</title>
+      <link>http://localhost:1313/recipebook/tags/honey/</link>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/recipebook/tags/honey/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pepper</title>
+      <link>http://localhost:1313/recipebook/tags/pepper/</link>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/recipebook/tags/pepper/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stirfry</title>
+      <link>http://localhost:1313/recipebook/tags/stirfry/</link>
+      <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/recipebook/tags/stirfry/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Noodle</title>
       <link>http://localhost:1313/recipebook/tags/noodle/</link>
@@ -20,13 +48,6 @@
       <link>http://localhost:1313/recipebook/tags/salad/</link>
       <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/recipebook/tags/salad/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Beef</title>
-      <link>http://localhost:1313/recipebook/tags/beef/</link>
-      <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/recipebook/tags/beef/</guid>
       <description></description>
     </item>
     <item>
@@ -209,27 +230,6 @@
       <link>http://localhost:1313/recipebook/tags/eel/</link>
       <pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/recipebook/tags/eel/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Blue</title>
-      <link>http://localhost:1313/recipebook/tags/blue/</link>
-      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/recipebook/tags/blue/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Green</title>
-      <link>http://localhost:1313/recipebook/tags/green/</link>
-      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/recipebook/tags/green/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Red</title>
-      <link>http://localhost:1313/recipebook/tags/red/</link>
-      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-      <guid>http://localhost:1313/recipebook/tags/red/</guid>
       <description></description>
     </item>
   </channel>

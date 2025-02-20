@@ -2,20 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/recipebook/tags/beef/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/tags/honey/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/posts/honey_pepper_stirfry/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/tags/pepper/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/posts/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/tags/stirfry/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/tags/</loc>
+    <lastmod>2024-04-06T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/recipebook/tags/noodle/</loc>
     <lastmod>2024-03-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/tags/salad/</loc>
     <lastmod>2024-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/recipebook/tags/</loc>
-    <lastmod>2024-03-24T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/recipebook/posts/vietnamese_noodle_salad/</loc>
     <lastmod>2024-03-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipebook/tags/beef/</loc>
-    <lastmod>2024-03-17T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/tags/curry/</loc>
     <lastmod>2024-03-17T00:00:00+00:00</lastmod>
@@ -148,30 +166,6 @@
   </url><url>
     <loc>http://localhost:1313/recipebook/posts/unagi_sauce/</loc>
     <lastmod>2023-09-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipebook/tags/blue/</loc>
-    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipebook/tags/green/</loc>
-    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipebook/posts/post-3/</loc>
-    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipebook/tags/red/</loc>
-    <lastmod>2023-03-15T11:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipebook/posts/post-2/</loc>
-    <lastmod>2023-02-15T10:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipebook/posts/post-1/</loc>
-    <lastmod>2023-01-15T09:00:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipebook/posts/</loc>
-    <lastmod>2023-01-01T08:30:00-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipebook/</loc>
-    <lastmod>2023-01-01T08:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/categories/</loc>
   </url>
