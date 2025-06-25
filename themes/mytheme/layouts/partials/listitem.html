@@ -10,6 +10,10 @@
     {{ if .Params.Tags }}
   <p>Tags: {{ partial "tags.html" . -}}</p>
   {{ end }}
+  {{ if .Params.Cuisine }}
+  <p>Tags: {{ partial "cuisine.html" . -}}</p>
+  {{ end }}
+
   {{ if .Summary }}
     <!-- A final <p> tag holds the summary, which can be one of three things: -->
     <!-- The text up to a more tag. -->

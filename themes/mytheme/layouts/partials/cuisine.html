@@ -1,0 +1,3 @@
+{{ if .Params.cuisine }}
+  <a href="{{ add (absURL `recipebook/cuisine/`) (.) }}">{{ . }}</a>
+{{ end }}

@@ -4,5 +4,9 @@
 {{ if .Params.Tags }}
   Tags: {{ partial "tags.html" . -}}
 {{ end }}
+{{ if .Params.Cuisine }}
+  Cuisine: {{ partial "cuisine.html" . -}}
+{{ end }}
+
 <div>{{ .Content }}</div>
 {{ end }}
