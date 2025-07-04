@@ -2,7 +2,7 @@
 title: Chef John's Meatballs
 date: 2023-09-14
 draft: false
-cuisine: italian
+cuisines: ["italian"]
 tags: ["mince"]
 ---
 

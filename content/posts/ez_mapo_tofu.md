@@ -2,7 +2,7 @@
 title: Ez Mapo Tofu
 date: 2023-11-25
 draft: false
-cuisine: chinese
+cuisines: ["chinese"]
 tags: ["tofu", "pork", "spicy", "rice"]
 ---
 
