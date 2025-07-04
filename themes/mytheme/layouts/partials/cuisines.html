@@ -1,4 +1,4 @@
 <!-- this is invoked to list the cuisine on the individual re  -->
 {{ range .Params.cuisines }}
-  <a href="{{ add (absURL `recipebook/cuisines/`) (.) }}">{{ . }}</a>
+  <a href="{{ add (absURL `cuisines/`) (.) }}">{{ . }}</a>
 {{ end }}
