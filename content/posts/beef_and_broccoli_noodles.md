@@ -2,7 +2,7 @@
 title: Beef And Broccoli Noodles
 date: 2023-10-20
 draft: false
-cuisine: chinese
+cuisines: ["chinese"]
 tags: ["beef", "noodles"]
 ---
 

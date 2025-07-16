@@ -2,7 +2,7 @@
 title: Gin Jam Fizz
 date: 2023-12-27
 draft: false
-cuisine: string
+cuisines: ["string"]
 tags: ["gin"]
 ---
 

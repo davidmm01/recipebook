@@ -2,7 +2,7 @@
 title: Beef Mince Bulgogi
 date: 2023-09-24
 draft: false
-cuisine: korean
+cuisines: ["korean"]
 tags: ["mince", "rice"]
 ---
 

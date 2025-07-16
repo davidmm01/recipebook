@@ -2,7 +2,7 @@
 title: Creamy Chicken Mushroom Pasta
 date: 2025-04-25
 draft: false
-cuisine: western
+cuisines: ["western"]
 tags: ["chicken", "mushroom", "pasta", "one pot", "dutch oven"]
 ---
 

@@ -2,7 +2,7 @@
 title: Chilli Wine Garlic Prawn Pasta
 date: 2023-12-19
 draft: false
-cuisine: fusion
+cuisines: ["fusion"]
 tags: ["pasta", "prawn"]
 ---
 

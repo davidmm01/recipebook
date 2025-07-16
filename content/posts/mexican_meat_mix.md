@@ -2,7 +2,7 @@
 title: Mexican Meat Mix
 date: 2024-08-20
 draft: false
-cuisine: mexican
+cuisines: ["mexican"]
 tags: ["beef", "mince", "beans", "meal prep", "lunch"]
 ---
 

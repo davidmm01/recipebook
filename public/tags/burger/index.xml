@@ -4,7 +4,7 @@
     <title>Burger on My New Hugo Site</title>
     <link>http://localhost:1313/recipebook/tags/burger/</link>
     <description>Recent content in Burger on My New Hugo Site</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 26 Dec 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/recipebook/tags/burger/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>http://localhost:1313/recipebook/posts/lamb_burgers/</link>
       <pubDate>Tue, 26 Dec 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/recipebook/posts/lamb_burgers/</guid>
-      <description>Ingredients 500g lamb mince 2 cloves garlic, minced 1 large egg 1/2 teaspoon cumin 1/2 teaspoon salt 1/4 teaspoon pepper zest of 1/2 lemon 1 teaspoon Rosemary 1 small onion, grated or very finely chopped Instructions In a large mixing bowl, combine all the ingredients and mix until thoroughly combined. Using your hands, shape the mixture into four patties. The lamb patties should take around 4minutes each side, cooking closer to high so we get some nice browning.</description>
+      <description>&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;500g lamb mince&lt;/li&gt;&#xA;&lt;li&gt;2 cloves garlic, minced&lt;/li&gt;&#xA;&lt;li&gt;1 large egg&lt;/li&gt;&#xA;&lt;li&gt;1/2 teaspoon cumin&lt;/li&gt;&#xA;&lt;li&gt;1/2 teaspoon salt&lt;/li&gt;&#xA;&lt;li&gt;1/4 teaspoon pepper&lt;/li&gt;&#xA;&lt;li&gt;zest of 1/2 lemon&lt;/li&gt;&#xA;&lt;li&gt;1 teaspoon Rosemary&lt;/li&gt;&#xA;&lt;li&gt;1 small onion, grated or very finely chopped&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;In a large mixing bowl, combine all the ingredients and mix until thoroughly combined.&lt;/li&gt;&#xA;&lt;li&gt;Using your hands, shape the mixture into four patties.&lt;/li&gt;&#xA;&lt;li&gt;The lamb patties should take around 4minutes each side, cooking closer to high so we get some nice browning.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

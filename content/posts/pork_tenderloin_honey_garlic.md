@@ -2,7 +2,7 @@
 title: Pork Tenderloin Honey Garlic
 date: 2024-06-08
 draft: false
-cuisine: chinese
+cuisines: ["chinese"]
 tags: ["asian", "garlic", "honey", "pork"]
 ---
 

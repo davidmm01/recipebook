@@ -2,7 +2,7 @@
 title: Punjabi Chicken Curry
 date: 2025-02-20
 draft: false
-cuisine: indian
+cuisines: ["indian"]
 tags: ["curry", "chicken", "with rice"]
 ---
 

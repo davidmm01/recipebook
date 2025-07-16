@@ -1,0 +1,29 @@
+<li>
+  <div>this is a listitem</div>
+  <h3>
+    <a href="{{ .RelPermalink }}">
+      {{ .Title }}
+    </a>
+  </h3>
+
+  {{ if .PublishDate }}
+  <p>Date: {{ .PublishDate }}</p>
+  {{ end }}
+
+  {{ if .Params.Tags }}
+  <p>Tags: {{ partial "tags.html" . -}}</p>
+  {{ end }}
+
+  {{ if .Params.Tags }}
+  <p>Cuisine: {{ partial "cuisines.html" . -}}</p>
+  {{ end }}
+
+  {{ if .Summary }}
+    <!-- A final <p> tag holds the summary, which can be one of three things: -->
+    <!-- The text up to a more tag. -->
+    <!-- A summary item in the front matter of the page itself. -->
+    <!-- The first 70 words of the post itself. -->
+    <!-- And I believe Hugo will look for those things in that order. So if you have a more tag, it will ignore the summary front matter. -->
+    <p>Summary: {{ .Summary }}</p>
+  {{ end }}
+</li>

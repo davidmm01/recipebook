@@ -2,7 +2,7 @@
 title: Lamb Burgers
 date: 2023-12-26
 draft: false
-cuisine: continental
+cuisines: ["continental"]
 tags: ["lamb", "burger"]
 ---
 

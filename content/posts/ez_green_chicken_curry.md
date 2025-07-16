@@ -2,7 +2,7 @@
 title: Ez Green Chicken Curry
 date: 2025-03-28
 draft: false
-cuisine: thai
+cuisines: ["thai"]
 tags: ["curry", "chicken", "jar", "with rice"]
 ---
 

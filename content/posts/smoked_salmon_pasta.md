@@ -2,7 +2,7 @@
 title: Smoked Salmon Pasta
 date: 2025-04-06
 draft: false
-cuisine: western
+cuisines: ["western"]
 tags: ["pasta", "smoked salmon", "mushroom", "creamy"]
 ---
 

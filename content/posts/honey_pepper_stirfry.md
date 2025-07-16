@@ -2,7 +2,7 @@
 title: Honey Pepper Stirfry
 date: 2024-04-06
 draft: false
-cuisine: chinese
+cuisines: ["chinese"]
 tags: ["beef", "stirfry", "honey", "pepper"]
 ---
 

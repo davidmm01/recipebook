@@ -2,7 +2,7 @@
 title: Pork Dumplings
 date: 2024-09-29
 draft: false
-cuisine: chinese
+cuisines: ["chinese"]
 tags: ["pork", "mince", "freeze", "mealprep", "dumpling", "gyoza", "wonton"]
 ---
 

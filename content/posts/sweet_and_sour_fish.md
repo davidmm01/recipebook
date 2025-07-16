@@ -2,7 +2,7 @@
 title: Sweet And Sour Fish
 date: 2023-11-18
 draft: false
-cuisine: chinese
+cuisines: ["chinese"]
 tags: ["pineapple", "fish", "fried", "frozen fish"]
 ---
 

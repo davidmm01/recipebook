@@ -2,7 +2,7 @@
 title: Sauce For Fried Rice
 date: 2023-09-18
 draft: false
-cuisine: chinese
+cuisines: ["chinese"]
 tags: ["sauce", "rice"]
 ---
 

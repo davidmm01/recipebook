@@ -4,16 +4,23 @@
     <title>Spicy on My New Hugo Site</title>
     <link>http://localhost:1313/recipebook/tags/spicy/</link>
     <description>Recent content in Spicy on My New Hugo Site</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/recipebook/tags/spicy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Firecracker Chicken</title>
+      <link>http://localhost:1313/recipebook/posts/firecracker_chicken/</link>
+      <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/recipebook/posts/firecracker_chicken/</guid>
+      <description>&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;500g chicken mince&lt;/li&gt;&#xA;&lt;li&gt;10h chilli oil&lt;/li&gt;&#xA;&lt;li&gt;30g honey&lt;/li&gt;&#xA;&lt;li&gt;60g frank red hot buffalo sauce&lt;/li&gt;&#xA;&lt;li&gt;30g rice vingegar&lt;/li&gt;&#xA;&lt;li&gt;1tsp garlic powder&lt;/li&gt;&#xA;&lt;li&gt;1 onion, chopped small&lt;/li&gt;&#xA;&lt;li&gt;3 birds eye chillis&lt;/li&gt;&#xA;&lt;li&gt;2 garlic gloves&lt;/li&gt;&#xA;&lt;li&gt;equivalent ginger&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;create the sauce by mixing honey, franks hot sauce and vinegar&lt;/li&gt;&#xA;&lt;li&gt;Heat a pan with some oil&lt;/li&gt;&#xA;&lt;li&gt;cook the onions for a minute or two, until a bit soft&lt;/li&gt;&#xA;&lt;li&gt;add the chilli oil and cook the garlic, ginger and chilllis for 20 seconds, just take the edge off&lt;/li&gt;&#xA;&lt;li&gt;add the chicken and cook&lt;/li&gt;&#xA;&lt;li&gt;once chicken is done, add the sauce and reduce it down to desired thickness&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Ez Mapo Tofu</title>
       <link>http://localhost:1313/recipebook/posts/ez_mapo_tofu/</link>
       <pubDate>Sat, 25 Nov 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/recipebook/posts/ez_mapo_tofu/</guid>
-      <description>Ingredients neutral oil 2 packets of Lee Kum Kee mapo tofu sauce 1 brown onion, sliced finely 2 cloves garlic, grated/sliced/chopped 1 knob of ginger, grated/sliced/chopped 1 tablespoon oyster sauce 2 teaspoons soy sauce 500g pork mince 900g tofu, cut into cubes spring onions (garnish, optional) Instructions </description>
+      <description>&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;neutral oil&lt;/li&gt;&#xA;&lt;li&gt;2 packets of Lee Kum Kee mapo tofu sauce&lt;/li&gt;&#xA;&lt;li&gt;1 brown onion, sliced finely&lt;/li&gt;&#xA;&lt;li&gt;2 cloves garlic, grated/sliced/chopped&lt;/li&gt;&#xA;&lt;li&gt;1 knob of ginger, grated/sliced/chopped&lt;/li&gt;&#xA;&lt;li&gt;1 tablespoon oyster sauce&lt;/li&gt;&#xA;&lt;li&gt;2 teaspoons soy sauce&lt;/li&gt;&#xA;&lt;li&gt;500g pork mince&lt;/li&gt;&#xA;&lt;li&gt;900g tofu, cut into cubes&lt;/li&gt;&#xA;&lt;li&gt;spring onions (garnish, optional)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;</description>
     </item>
   </channel>
 </rss>

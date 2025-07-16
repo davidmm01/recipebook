@@ -2,7 +2,7 @@
 title: Japanese Chicken Curry
 date: 2023-11-27
 draft: false
-cuisine: string
+cuisines: ["string"]
 tags: ["string"]
 ---
 
