@@ -8,6 +8,9 @@
     <loc>http://localhost:1313/recipebook/posts/creamy_chicken_mushroom_pasta/</loc>
     <lastmod>2025-04-25T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/recipebook/cuisines/</loc>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/recipebook/tags/dutch-oven/</loc>
     <lastmod>2025-04-25T00:00:00+00:00</lastmod>
   </url><url>
@@ -29,6 +32,9 @@
     <loc>http://localhost:1313/recipebook/tags/</loc>
     <lastmod>2025-04-25T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/recipebook/cuisines/western/</loc>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/recipebook/tags/creamy/</loc>
     <lastmod>2025-04-06T00:00:00+00:00</lastmod>
   </url><url>
@@ -47,16 +53,19 @@
     <loc>http://localhost:1313/recipebook/tags/jar/</loc>
     <lastmod>2025-03-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/recipebook/cuisines/thai/</loc>
+    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/recipebook/tags/with-rice/</loc>
     <lastmod>2025-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/cuisines/indian/</loc>
+    <lastmod>2025-02-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/posts/punjabi_chicken_curry/</loc>
     <lastmod>2025-02-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/cuisines/chinese/</loc>
-    <lastmod>2024-09-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipebook/cuisines/</loc>
     <lastmod>2024-09-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/tags/dumpling/</loc>
@@ -155,9 +164,6 @@
     <loc>http://localhost:1313/recipebook/posts/vietnamese_noodle_salad/</loc>
     <lastmod>2024-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/recipebook/cuisines/indian/</loc>
-    <lastmod>2024-03-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/recipebook/posts/qeema_mince/</loc>
     <lastmod>2024-03-17T00:00:00+00:00</lastmod>
   </url><url>
@@ -230,9 +236,6 @@
     <loc>http://localhost:1313/recipebook/tags/lemon/</loc>
     <lastmod>2023-11-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/recipebook/cuisines/western/</loc>
-    <lastmod>2023-11-22T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/recipebook/tags/fried/</loc>
     <lastmod>2023-11-18T00:00:00+00:00</lastmod>
   </url><url>
@@ -273,9 +276,6 @@
     <lastmod>2023-09-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/posts/sauce_for_fried_rice/</loc>
-    <lastmod>2023-09-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipebook/cuisines/thai/</loc>
     <lastmod>2023-09-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/posts/chef_johns_meatballs/</loc>
