@@ -1,0 +1,35 @@
+---
+title: Punjabi Chicken Curry
+date: 2025-02-20
+draft: false
+cuisine: indian
+tags: ["curry", "chicken", "with rice"]
+---
+
+## Ingredients
+- 160g natural yogurt
+- 1 teaspoon salt
+- 1 teaspoon chilli powder
+- 1 teaspoon garam masala
+- 4 garlic cloves, grated
+- 1 inch ginger, grated
+- 8 bone-in chicken thighs, skin removed
+- 3 tablespoons sunflower oil
+- 1 teaspoon cumin seeds
+- 1/2 teaspoon mustard seeds
+- 1 bay leaf
+- 4 onions, finely chopped
+- 1 400g tin diced tomatoes
+- 2 teaspoons ground coriander
+- 1/2 teaspoon grounc cumin
+- 1 teaspoon garam masala
+- 1 teaspoon turmeric powder
+- 1 teaspoon chilli powder
+- 1 teaspoon salt
+- 1 handful of fresh coriander, finely chopped
+
+## Instructions
+- Combine the yogurt with the salt, spices, garlic, and ginger in a bowl, and mix well. Add the chicken thighs and make sure that the chicken is coated well in the yogurt marinade. Let it rest overnight, or 1 hour at least, in the fridge.
+- Heat the oil in a pan. Add the cumin seeds, mustard seeds and bay leaf. Once they start to sizzle, add the onions and cook for 15 minutes, until a lovely golden color. Now add the tomatoes and cook for 10 minutes, until softened. Add the spices and salt, and cook for 1 minute. Add the marinated chicken, mix well, and cover. Cook for 40 to 45 minutes over low heat until the chicken is cooked through.
+- Once you have cooked the curry, let it rest for 30 minutes to 1 hour. This makes the curry really intense and the chicken soaks up the flavors better. Sprinkle with some coriander and serve.
+
