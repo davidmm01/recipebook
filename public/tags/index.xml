@@ -6,8 +6,78 @@
     <description>Recent content in Tags on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/recipebook/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chicken</title>
+      <link>http://localhost:1313/recipebook/tags/chicken/</link>
+      <pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/recipebook/tags/chicken/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dutch Oven</title>
+      <link>http://localhost:1313/recipebook/tags/dutch-oven/</link>
+      <pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/recipebook/tags/dutch-oven/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mushroom</title>
+      <link>http://localhost:1313/recipebook/tags/mushroom/</link>
+      <pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/recipebook/tags/mushroom/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>One Pot</title>
+      <link>http://localhost:1313/recipebook/tags/one-pot/</link>
+      <pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/recipebook/tags/one-pot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pasta</title>
+      <link>http://localhost:1313/recipebook/tags/pasta/</link>
+      <pubDate>Fri, 25 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/recipebook/tags/pasta/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Creamy</title>
+      <link>http://localhost:1313/recipebook/tags/creamy/</link>
+      <pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/recipebook/tags/creamy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Smoked Salmon</title>
+      <link>http://localhost:1313/recipebook/tags/smoked-salmon/</link>
+      <pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/recipebook/tags/smoked-salmon/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Curry</title>
+      <link>http://localhost:1313/recipebook/tags/curry/</link>
+      <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/recipebook/tags/curry/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jar</title>
+      <link>http://localhost:1313/recipebook/tags/jar/</link>
+      <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/recipebook/tags/jar/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>With Rice</title>
+      <link>http://localhost:1313/recipebook/tags/with-rice/</link>
+      <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/recipebook/tags/with-rice/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Dumpling</title>
       <link>http://localhost:1313/recipebook/tags/dumpling/</link>
@@ -55,13 +125,6 @@
       <link>http://localhost:1313/recipebook/tags/wonton/</link>
       <pubDate>Sun, 29 Sep 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/recipebook/tags/wonton/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Pasta</title>
-      <link>http://localhost:1313/recipebook/tags/pasta/</link>
-      <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/recipebook/tags/pasta/</guid>
       <description></description>
     </item>
     <item>
@@ -163,13 +226,6 @@
       <description></description>
     </item>
     <item>
-      <title>Curry</title>
-      <link>http://localhost:1313/recipebook/tags/curry/</link>
-      <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/recipebook/tags/curry/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Gin</title>
       <link>http://localhost:1313/recipebook/tags/gin/</link>
       <pubDate>Wed, 27 Dec 2023 00:00:00 +0000</pubDate>
@@ -244,13 +300,6 @@
       <link>http://localhost:1313/recipebook/tags/lemon/</link>
       <pubDate>Wed, 22 Nov 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/recipebook/tags/lemon/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Chicken</title>
-      <link>http://localhost:1313/recipebook/tags/chicken/</link>
-      <pubDate>Sat, 18 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/recipebook/tags/chicken/</guid>
       <description></description>
     </item>
     <item>

@@ -2,6 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/recipebook/tags/chicken/</loc>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/posts/creamy_chicken_mushroom_pasta/</loc>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/tags/dutch-oven/</loc>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/tags/mushroom/</loc>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/</loc>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/tags/one-pot/</loc>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/tags/pasta/</loc>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/posts/</loc>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/tags/</loc>
+    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/tags/creamy/</loc>
+    <lastmod>2025-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/tags/smoked-salmon/</loc>
+    <lastmod>2025-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/posts/smoked_salmon_pasta/</loc>
+    <lastmod>2025-04-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/tags/curry/</loc>
+    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/posts/ez_green_chicken_curry/</loc>
+    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/tags/jar/</loc>
+    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/tags/with-rice/</loc>
+    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/posts/punjabi_chicken_curry/</loc>
+    <lastmod>2025-02-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/recipebook/cuisines/chinese/</loc>
     <lastmod>2024-09-29T00:00:00+00:00</lastmod>
   </url><url>
@@ -23,19 +74,10 @@
     <loc>http://localhost:1313/recipebook/tags/mince/</loc>
     <lastmod>2024-09-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/recipebook/</loc>
-    <lastmod>2024-09-29T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/recipebook/tags/pork/</loc>
     <lastmod>2024-09-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/posts/pork_dumplings/</loc>
-    <lastmod>2024-09-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipebook/posts/</loc>
-    <lastmod>2024-09-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipebook/tags/</loc>
     <lastmod>2024-09-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/tags/wonton/</loc>
@@ -45,9 +87,6 @@
     <lastmod>2024-09-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/cuisines/italian/</loc>
-    <lastmod>2024-09-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipebook/tags/pasta/</loc>
     <lastmod>2024-09-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/tags/sauce/</loc>
@@ -116,9 +155,6 @@
     <loc>http://localhost:1313/recipebook/posts/vietnamese_noodle_salad/</loc>
     <lastmod>2024-03-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/recipebook/tags/curry/</loc>
-    <lastmod>2024-03-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/recipebook/cuisines/indian/</loc>
     <lastmod>2024-03-17T00:00:00+00:00</lastmod>
   </url><url>
@@ -170,6 +206,9 @@
     <loc>http://localhost:1313/recipebook/cuisines/japanese/</loc>
     <lastmod>2023-11-29T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/recipebook/posts/japanese_chicken_curry/</loc>
+    <lastmod>2023-11-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/recipebook/tags/string/</loc>
     <lastmod>2023-11-27T00:00:00+00:00</lastmod>
   </url><url>
@@ -193,9 +232,6 @@
   </url><url>
     <loc>http://localhost:1313/recipebook/cuisines/western/</loc>
     <lastmod>2023-11-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipebook/tags/chicken/</loc>
-    <lastmod>2023-11-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/tags/fried/</loc>
     <lastmod>2023-11-18T00:00:00+00:00</lastmod>
