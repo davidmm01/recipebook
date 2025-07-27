@@ -2,13 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/recipebook/posts/bastard_beans/</loc>
+    <lastmod>2025-07-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/tags/beans/</loc>
+    <lastmod>2025-07-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/cuisines/</loc>
+    <lastmod>2025-07-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/cuisines/mexican/</loc>
+    <lastmod>2025-07-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/</loc>
+    <lastmod>2025-07-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/posts/</loc>
+    <lastmod>2025-07-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/tags/</loc>
+    <lastmod>2025-07-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/tags/with-rice/</loc>
+    <lastmod>2025-07-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/recipebook/tags/chicken/</loc>
     <lastmod>2025-04-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/posts/creamy_chicken_mushroom_pasta/</loc>
-    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipebook/cuisines/</loc>
     <lastmod>2025-04-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/tags/dutch-oven/</loc>
@@ -17,19 +38,10 @@
     <loc>http://localhost:1313/recipebook/tags/mushroom/</loc>
     <lastmod>2025-04-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/recipebook/</loc>
-    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/recipebook/tags/one-pot/</loc>
     <lastmod>2025-04-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/tags/pasta/</loc>
-    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipebook/posts/</loc>
-    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipebook/tags/</loc>
     <lastmod>2025-04-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/cuisines/western/</loc>
@@ -54,9 +66,6 @@
     <lastmod>2025-03-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/cuisines/thai/</loc>
-    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipebook/tags/with-rice/</loc>
     <lastmod>2025-03-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/cuisines/indian/</loc>
@@ -104,9 +113,6 @@
     <loc>http://localhost:1313/recipebook/tags/tomato/</loc>
     <lastmod>2024-09-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/recipebook/tags/beans/</loc>
-    <lastmod>2024-08-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/recipebook/tags/beef/</loc>
     <lastmod>2024-08-20T00:00:00+00:00</lastmod>
   </url><url>
@@ -114,9 +120,6 @@
     <lastmod>2024-08-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/tags/meal-prep/</loc>
-    <lastmod>2024-08-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipebook/cuisines/mexican/</loc>
     <lastmod>2024-08-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/posts/mexican_meat_mix/</loc>
