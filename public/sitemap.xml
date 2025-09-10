@@ -2,8 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/recipebook/tags/chicken/</loc>
+    <lastmod>2025-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/cuisines/chinese/</loc>
+    <lastmod>2025-09-10T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/recipebook/cuisines/</loc>
-    <lastmod>2025-08-14T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/tags/easy/</loc>
+    <lastmod>2025-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/posts/ez_guilin_chicken/</loc>
+    <lastmod>2025-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/posts/kimchi_chikki_stew/</loc>
+    <lastmod>2025-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/cuisines/korean/</loc>
+    <lastmod>2025-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/</loc>
+    <lastmod>2025-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/posts/</loc>
+    <lastmod>2025-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/tags/soup/</loc>
+    <lastmod>2025-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/tags/spicy/</loc>
+    <lastmod>2025-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/tags/stew/</loc>
+    <lastmod>2025-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/tags/</loc>
+    <lastmod>2025-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/tags/with-rice/</loc>
+    <lastmod>2025-09-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/tags/fibre/</loc>
     <lastmod>2025-08-14T00:00:00+00:00</lastmod>
@@ -17,25 +56,13 @@
     <loc>http://localhost:1313/recipebook/posts/minestrone/</loc>
     <lastmod>2025-08-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/recipebook/</loc>
-    <lastmod>2025-08-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/recipebook/posts/palak_paneer/</loc>
-    <lastmod>2025-08-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipebook/posts/</loc>
-    <lastmod>2025-08-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipebook/tags/soup/</loc>
     <lastmod>2025-08-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/cuisines/string/</loc>
     <lastmod>2025-08-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/tags/string/</loc>
-    <lastmod>2025-08-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipebook/tags/</loc>
     <lastmod>2025-08-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/posts/bastard_beans/</loc>
@@ -46,12 +73,6 @@
   </url><url>
     <loc>http://localhost:1313/recipebook/cuisines/mexican/</loc>
     <lastmod>2025-07-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipebook/tags/with-rice/</loc>
-    <lastmod>2025-07-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipebook/tags/chicken/</loc>
-    <lastmod>2025-04-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/posts/creamy_chicken_mushroom_pasta/</loc>
     <lastmod>2025-04-25T00:00:00+00:00</lastmod>
@@ -97,9 +118,6 @@
   </url><url>
     <loc>http://localhost:1313/recipebook/posts/punjabi_chicken_curry/</loc>
     <lastmod>2025-02-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipebook/cuisines/chinese/</loc>
-    <lastmod>2024-09-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/tags/dumpling/</loc>
     <lastmod>2024-09-29T00:00:00+00:00</lastmod>
@@ -162,9 +180,6 @@
     <lastmod>2024-06-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/posts/pork_tenderloin_honey_garlic/</loc>
-    <lastmod>2024-06-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipebook/tags/spicy/</loc>
     <lastmod>2024-06-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/posts/honey_pepper_stirfry/</loc>
@@ -282,9 +297,6 @@
     <lastmod>2023-09-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/posts/easy_chicken_curry/</loc>
-    <lastmod>2023-09-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipebook/cuisines/korean/</loc>
     <lastmod>2023-09-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/tags/lamb-shanks/</loc>

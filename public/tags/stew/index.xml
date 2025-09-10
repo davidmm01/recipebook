@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stew on My New Hugo Site</title>
+    <link>http://localhost:1313/recipebook/tags/stew/</link>
+    <description>Recent content in Stew on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/recipebook/tags/stew/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kimchi Chikki Stew</title>
+      <link>http://localhost:1313/recipebook/posts/kimchi_chikki_stew/</link>
+      <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/recipebook/posts/kimchi_chikki_stew/</guid>
+      <description>&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;1 container kimchi (~700g), and don&amp;rsquo;t skimp on quality&lt;/li&gt;&#xA;&lt;li&gt;1.5kg chicken thighs&lt;/li&gt;&#xA;&lt;li&gt;3 green onions, sliced&lt;/li&gt;&#xA;&lt;li&gt;1 medium onion, sliced&lt;/li&gt;&#xA;&lt;li&gt;3 garlic cloves, sliced&lt;/li&gt;&#xA;&lt;li&gt;a packet enoki mushrooms&lt;/li&gt;&#xA;&lt;li&gt;1 teaspoon kosher salt&lt;/li&gt;&#xA;&lt;li&gt;2 teaspoons sugar&lt;/li&gt;&#xA;&lt;li&gt;2 teaspoons gochugaru (Korean hot pepper flakes)&lt;/li&gt;&#xA;&lt;li&gt;1 tablespoon gochujang (hot pepper paste)&lt;/li&gt;&#xA;&lt;li&gt;1 teaspoon toasted sesame oil&lt;/li&gt;&#xA;&lt;li&gt;3 cups of dashi stock (3 tsp in 750ml)&lt;/li&gt;&#xA;&lt;li&gt;1 tube (350g) of sundubu soft tofu&lt;/li&gt;&#xA;&lt;li&gt;1 pack of firmer stew tofu&lt;/li&gt;&#xA;&lt;li&gt;optional - add more kinds of veg like asian greens, potatos, lots works here&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Open the kimchi container and use some scissors to chop it up (or a knife/chopping board)&lt;/li&gt;&#xA;&lt;li&gt;Into a large pot (green ceramic), place all the initial additions&lt;/li&gt;&#xA;&lt;li&gt;Cover and cook for 15 minutes.&lt;/li&gt;&#xA;&lt;li&gt;Remove lid and add the tofu, then cooking for another 15 minutes&lt;/li&gt;&#xA;&lt;li&gt;serve with rice&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>
