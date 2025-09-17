@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/recipebook/tags/eel/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Unagi Sauce</title>
-      <link>http://localhost:1313/recipebook/posts/unagi_sauce/</link>
+      <link>http://localhost:1313/recipebook/recipes/unagi_sauce/</link>
       <pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/recipebook/posts/unagi_sauce/</guid>
+      <guid>http://localhost:1313/recipebook/recipes/unagi_sauce/</guid>
       <description>&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;60ml mirin&lt;/li&gt;&#xA;&lt;li&gt;1½ Tbsp sake&lt;/li&gt;&#xA;&lt;li&gt;2½ Tbsp sugar&lt;/li&gt;&#xA;&lt;li&gt;60ml soy sauce&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;In a small saucepan, add the mirin, sake and sugar. Turn on the heat to medium and whisk all the ingredients together.&lt;/li&gt;&#xA;&lt;li&gt;Add soy sauce and bring to a boil. Once boiling, reduce the heat to low and continue simmering for 10 minutes. Toward the end of cooking, you will see more bubbles.&lt;/li&gt;&#xA;&lt;li&gt;Turn off the heat and let it cool. The sauce will thicken as it cools.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>

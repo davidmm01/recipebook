@@ -6,21 +6,19 @@ import (
 	"strings"
 )
 
-const CONTENT_DIR = "content/posts/"
-
-func generateAll(recipes []Recipe) {
+func writeRecipesAsMarkdownFile(recipes []Recipe, destDir string) {
 	for _, recipe := range recipes {
-		markdown := generateMarkdown(recipe)
+		markdown := generateRecipeMarkdown(recipe)
 		markdownBytes := []byte(markdown)
 		filename := strings.ToLower(recipe.Name)
 		filename = strings.ReplaceAll(filename, " ", "_")
 		filename += ".md"
-		filePath := fmt.Sprintf("%s%s", CONTENT_DIR, filename)
+		filePath := fmt.Sprintf("%s%s", destDir, filename)
 		os.WriteFile(filePath, markdownBytes, os.ModePerm)
 	}
 }
 
-func generateMarkdown(recipe Recipe) string {
+func generateRecipeMarkdown(recipe Recipe) string {
 	markdown := "---\n"
 	markdown += fmt.Sprintf("title: %s\n", recipe.Name)
 	markdown += fmt.Sprintf("date: %s\n", recipe.DateAdded)
