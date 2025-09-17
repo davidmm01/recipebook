@@ -10,9 +10,16 @@
     <atom:link href="http://localhost:1313/recipebook/tags/gin/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gin Jam Fizz</title>
-      <link>http://localhost:1313/recipebook/posts/gin_jam_fizz/</link>
+      <link>http://localhost:1313/recipebook/cocktails/gin_jam_fizz/</link>
       <pubDate>Wed, 27 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/recipebook/posts/gin_jam_fizz/</guid>
+      <guid>http://localhost:1313/recipebook/cocktails/gin_jam_fizz/</guid>
+      <description>&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;45ml pink gin&lt;/li&gt;&#xA;&lt;li&gt;2 tsp raspberry jam&lt;/li&gt;&#xA;&lt;li&gt;1/2 cup ice&lt;/li&gt;&#xA;&lt;li&gt;15ml lemon juice&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Shake&lt;/li&gt;&#xA;&lt;li&gt;Top up the (wine) glass with soda water to liking.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Gin Jam Fizz</title>
+      <link>http://localhost:1313/recipebook/recipes/gin_jam_fizz/</link>
+      <pubDate>Wed, 27 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/recipebook/recipes/gin_jam_fizz/</guid>
       <description>&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;45ml pink gin&lt;/li&gt;&#xA;&lt;li&gt;2 tsp raspberry jam&lt;/li&gt;&#xA;&lt;li&gt;1/2 cup ice&lt;/li&gt;&#xA;&lt;li&gt;15ml lemon juice&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Shake&lt;/li&gt;&#xA;&lt;li&gt;Top up the (wine) glass with soda water to liking.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>

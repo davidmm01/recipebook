@@ -37,15 +37,18 @@ type Recipe struct {
 // relative path from makefile to the recipe files
 const RECIPES_DIR = "source/recipes/"
 
+// relative path from makefile to the recipe files
+const COCKTAILS_DIR = "source/cocktails/"
+
 // use a single instance of Validate, it caches struct info
 var validate *validator.Validate
 
 // fileNameRegexStr only matches strings that are lower case, snake case, and end in the `.yaml`
 const fileNameRegexStr = `[a-z]+(_[a-z]+)*.yaml$`
 
-func getValidRecipes(showOutput bool) []Recipe {
+func getValidRecipes(sourceDir string, showOutput bool) []Recipe {
 	// TODO: I hate this showOutput
-	files, err := os.ReadDir(RECIPES_DIR)
+	files, err := os.ReadDir(sourceDir)
 	if err != nil {
 		log.Fatalf("error trying to read directory: %v", err)
 	}
@@ -59,7 +62,7 @@ func getValidRecipes(showOutput bool) []Recipe {
 
 	for i, f := range files {
 		fileName := f.Name()
-		filePath := fmt.Sprintf("%s%s", RECIPES_DIR, fileName)
+		filePath := fmt.Sprintf("%s%s", sourceDir, fileName)
 
 		if showOutput {
 			fmt.Printf("%d. %s\n", i+1, filePath)
@@ -133,7 +136,7 @@ func getValidRecipes(showOutput bool) []Recipe {
 		} else {
 			emoji = "💣💣💣💣"
 		}
-		fmt.Printf("\n%s FAIL = %d, PASS = %d %s\n", emoji, errCount, passCount, emoji)
+		fmt.Printf("\n%s PATH=%s FAIL = %d, PASS = %d %s\n", emoji, sourceDir, errCount, passCount, emoji)
 
 		if showOutput {
 			os.Exit(errCount)
