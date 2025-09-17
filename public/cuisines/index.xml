@@ -23,17 +23,17 @@
       <description></description>
     </item>
     <item>
+      <title>Indian</title>
+      <link>http://localhost:1313/recipebook/cuisines/indian/</link>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/recipebook/cuisines/indian/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Italian</title>
       <link>http://localhost:1313/recipebook/cuisines/italian/</link>
       <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/recipebook/cuisines/italian/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>String</title>
-      <link>http://localhost:1313/recipebook/cuisines/string/</link>
-      <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/recipebook/cuisines/string/</guid>
       <description></description>
     </item>
     <item>
@@ -58,13 +58,6 @@
       <description></description>
     </item>
     <item>
-      <title>Indian</title>
-      <link>http://localhost:1313/recipebook/cuisines/indian/</link>
-      <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/recipebook/cuisines/indian/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Fusion</title>
       <link>http://localhost:1313/recipebook/cuisines/fusion/</link>
       <pubDate>Sat, 08 Jun 2024 00:00:00 +0000</pubDate>
@@ -76,6 +69,13 @@
       <link>http://localhost:1313/recipebook/cuisines/vietnamese/</link>
       <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/recipebook/cuisines/vietnamese/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>String</title>
+      <link>http://localhost:1313/recipebook/cuisines/string/</link>
+      <pubDate>Wed, 27 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/recipebook/cuisines/string/</guid>
       <description></description>
     </item>
     <item>

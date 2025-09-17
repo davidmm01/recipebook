@@ -44,10 +44,16 @@
     <loc>http://localhost:1313/recipebook/tags/with-rice/</loc>
     <lastmod>2025-09-10T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/recipebook/tags/curry/</loc>
+    <lastmod>2025-08-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/recipebook/tags/fibre/</loc>
     <lastmod>2025-08-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/tags/healthy/</loc>
+    <lastmod>2025-08-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/cuisines/indian/</loc>
     <lastmod>2025-08-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/cuisines/italian/</loc>
@@ -57,12 +63,6 @@
     <lastmod>2025-08-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/posts/palak_paneer/</loc>
-    <lastmod>2025-08-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipebook/cuisines/string/</loc>
-    <lastmod>2025-08-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipebook/tags/string/</loc>
     <lastmod>2025-08-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/posts/bastard_beans/</loc>
@@ -101,9 +101,6 @@
     <loc>http://localhost:1313/recipebook/posts/smoked_salmon_pasta/</loc>
     <lastmod>2025-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/recipebook/tags/curry/</loc>
-    <lastmod>2025-03-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/recipebook/posts/ez_green_chicken_curry/</loc>
     <lastmod>2025-03-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -112,9 +109,6 @@
   </url><url>
     <loc>http://localhost:1313/recipebook/cuisines/thai/</loc>
     <lastmod>2025-03-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipebook/cuisines/indian/</loc>
-    <lastmod>2025-02-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/posts/punjabi_chicken_curry/</loc>
     <lastmod>2025-02-20T00:00:00+00:00</lastmod>
@@ -212,6 +206,9 @@
     <loc>http://localhost:1313/recipebook/posts/gin_jam_fizz/</loc>
     <lastmod>2023-12-27T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/recipebook/cuisines/string/</loc>
+    <lastmod>2023-12-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/recipebook/tags/burger/</loc>
     <lastmod>2023-12-26T00:00:00+00:00</lastmod>
   </url><url>
@@ -249,6 +246,9 @@
     <lastmod>2023-11-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/posts/japanese_chicken_curry/</loc>
+    <lastmod>2023-11-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/tags/string/</loc>
     <lastmod>2023-11-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/posts/template/</loc>

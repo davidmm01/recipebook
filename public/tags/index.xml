@@ -51,6 +51,13 @@
       <description></description>
     </item>
     <item>
+      <title>Curry</title>
+      <link>http://localhost:1313/recipebook/tags/curry/</link>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/recipebook/tags/curry/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Fibre</title>
       <link>http://localhost:1313/recipebook/tags/fibre/</link>
       <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
@@ -62,13 +69,6 @@
       <link>http://localhost:1313/recipebook/tags/healthy/</link>
       <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/recipebook/tags/healthy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>String</title>
-      <link>http://localhost:1313/recipebook/tags/string/</link>
-      <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/recipebook/tags/string/</guid>
       <description></description>
     </item>
     <item>
@@ -118,13 +118,6 @@
       <link>http://localhost:1313/recipebook/tags/smoked-salmon/</link>
       <pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/recipebook/tags/smoked-salmon/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Curry</title>
-      <link>http://localhost:1313/recipebook/tags/curry/</link>
-      <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/recipebook/tags/curry/</guid>
       <description></description>
     </item>
     <item>
@@ -314,6 +307,13 @@
       <link>http://localhost:1313/recipebook/tags/rice/</link>
       <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/recipebook/tags/rice/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>String</title>
+      <link>http://localhost:1313/recipebook/tags/string/</link>
+      <pubDate>Mon, 27 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/recipebook/tags/string/</guid>
       <description></description>
     </item>
     <item>
