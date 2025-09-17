@@ -1,6 +1,6 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
-<ul>
+<ul class="page-list">
 {{ range .Pages.ByPublishDate.Reverse }}
   {{- partial "listitem.html" . -}}
 {{ end }}

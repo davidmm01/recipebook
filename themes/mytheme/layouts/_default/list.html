@@ -1,5 +1,5 @@
 {{ define "main" }}
-<ul>
+<ul class="page-list">
 {{ range .Pages.ByPublishDate.Reverse }}
   {{- partial "listitem.html" . -}}
 {{ end }}

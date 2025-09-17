@@ -5,11 +5,11 @@
     </a>
   </h3>
 
-  {{ if .Params.Tags }}
-  <p>Tags: {{ partial "tags.html" . -}}</p>
+  {{ if .Params.Cuisines }}
+  <p>🌍 {{ partial "cuisines.html" . -}}</p>
   {{ end }}
 
   {{ if .Params.Tags }}
-  <p>Cuisine: {{ partial "cuisines.html" . -}}</p>
+  <p>🏷️ {{ partial "tags.html" . -}}</p>
   {{ end }}
 </li>

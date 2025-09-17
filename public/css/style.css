@@ -56,12 +56,23 @@ nav a:hover {
   .divider {
     margin: 0 10px;
   }
+  
+  /* Reduce columns on mobile */
+  ul.page-list {
+    columns: 2;
+    column-gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  ul.page-list {
+    columns: 1;
+  }
 }
 
 /* Clean list styling */
 ul, ol {
   text-align: left;
-  display: inline-block;
   margin: 20px 0;
 }
 
@@ -70,10 +81,33 @@ ul {
   padding-left: 0;
 }
 
+ul.page-list {
+  columns: 3;
+  column-gap: 30px;
+  column-fill: balance;
+  width: 100%;
+  display: block;
+}
+
 ul li {
   position: relative;
   padding-left: 25px;
   margin-bottom: 8px;
+}
+
+ul.page-list li {
+  break-inside: avoid;
+  page-break-inside: avoid;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #f9f9f9;
+  padding-left: 10px;
+}
+
+ul.page-list li::before {
+  display: none;
 }
 
 ul li::before {

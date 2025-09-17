@@ -1,0 +1,14 @@
+{{ define "main" }}
+<h1>All Cuisines</h1>
+<ul class="page-list">
+{{ range .Data.Terms.ByCount.Reverse }}
+  <li>
+    <h3>
+      <a href="{{ .Page.RelPermalink }}">
+        {{ .Name }} ({{ .Count }})
+      </a>
+    </h3>
+  </li>
+{{ end }}
+</ul>
+{{ end }}
