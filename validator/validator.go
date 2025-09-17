@@ -35,7 +35,7 @@ type Recipe struct {
 }
 
 // relative path from makefile to the recipe files
-const RECIPES_DIR = "recipes/"
+const RECIPES_DIR = "source/recipes/"
 
 // use a single instance of Validate, it caches struct info
 var validate *validator.Validate
