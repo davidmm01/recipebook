@@ -15,18 +15,47 @@ body {
 nav {
   text-align: center;
   margin-bottom: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 nav a {
-  margin: 0 15px;
+  margin: 0 10px;
   text-decoration: none;
   color: #007acc;
   font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
 }
 
 nav a:hover {
   color: #005fa3;
   text-decoration: underline;
+}
+
+.divider {
+  color: #666;
+  margin: 0 5px;
+}
+
+/* Mobile responsive: hide text, show only icons */
+@media (max-width: 768px) {
+  nav a .text {
+    display: none;
+  }
+  
+  nav a {
+    margin: 0 5px;
+  }
+  
+  .divider {
+    margin: 0 10px;
+  }
 }
 
 /* Clean list styling */
