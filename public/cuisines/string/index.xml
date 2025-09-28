@@ -9,6 +9,13 @@
     <lastBuildDate>Sun, 28 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/recipebook/cuisines/string/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Boulevardier</title>
+      <link>http://localhost:1313/recipebook/cocktails/boulevardier/</link>
+      <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/recipebook/cocktails/boulevardier/</guid>
+      <description>&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;1 part bourbon&lt;/li&gt;&#xA;&lt;li&gt;1 part campari&lt;/li&gt;&#xA;&lt;li&gt;1 part vermouth rosso&lt;/li&gt;&#xA;&lt;li&gt;orange slice or peel for garnish&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Combine.&lt;/li&gt;&#xA;&lt;li&gt;Garnish with orange slice.&lt;/li&gt;&#xA;&lt;li&gt;Serve on the rocks.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
       <title>Margarita</title>
       <link>http://localhost:1313/recipebook/cocktails/margarita/</link>
       <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
