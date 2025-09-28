@@ -6,8 +6,15 @@
     <description>Recent content in Gin on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/recipebook/tags/gin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Negroni</title>
+      <link>http://localhost:1313/recipebook/cocktails/negroni/</link>
+      <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/recipebook/cocktails/negroni/</guid>
+      <description>&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;1 part gin&lt;/li&gt;&#xA;&lt;li&gt;1 part campari&lt;/li&gt;&#xA;&lt;li&gt;1 part vermouth rosso&lt;/li&gt;&#xA;&lt;li&gt;orange slice for garnish&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Combine.&lt;/li&gt;&#xA;&lt;li&gt;Garnish with orange slice.&lt;/li&gt;&#xA;&lt;li&gt;Serve on the rocks.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Gin Jam Fizz</title>
       <link>http://localhost:1313/recipebook/cocktails/gin_jam_fizz/</link>

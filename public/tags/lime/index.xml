@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lime on My New Hugo Site</title>
+    <link>http://localhost:1313/recipebook/tags/lime/</link>
+    <description>Recent content in Lime on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 28 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/recipebook/tags/lime/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Margarita</title>
+      <link>http://localhost:1313/recipebook/cocktails/margarita/</link>
+      <pubDate>Sun, 28 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/recipebook/cocktails/margarita/</guid>
+      <description>&lt;h2 id=&#34;ingredients&#34;&gt;Ingredients&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;juice of 1 lime&lt;/li&gt;&#xA;&lt;li&gt;45ml tequila (blanco or reposado)&lt;/li&gt;&#xA;&lt;li&gt;15ml cointreu&lt;/li&gt;&#xA;&lt;li&gt;15ml agave syrup&lt;/li&gt;&#xA;&lt;li&gt;pinch of salt&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Combine all ingredients.&lt;/li&gt;&#xA;&lt;li&gt;Shake&lt;/li&gt;&#xA;&lt;li&gt;Strain and serve.&lt;/li&gt;&#xA;&lt;li&gt;Optionally serve ice and or a splash of soda water.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

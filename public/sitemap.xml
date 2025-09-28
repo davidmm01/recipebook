@@ -2,13 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/recipebook/tags/campari/</loc>
+    <lastmod>2025-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/cocktails/</loc>
+    <lastmod>2025-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/cuisines/</loc>
+    <lastmod>2025-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/tags/gin/</loc>
+    <lastmod>2025-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/tags/lime/</loc>
+    <lastmod>2025-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/cocktails/margarita/</loc>
+    <lastmod>2025-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/</loc>
+    <lastmod>2025-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/cocktails/negroni/</loc>
+    <lastmod>2025-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/tags/salt/</loc>
+    <lastmod>2025-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/cuisines/string/</loc>
+    <lastmod>2025-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/tags/</loc>
+    <lastmod>2025-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/tags/tequila/</loc>
+    <lastmod>2025-09-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/tags/vermouth/</loc>
+    <lastmod>2025-09-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/recipebook/tags/chicken/</loc>
     <lastmod>2025-09-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/cuisines/chinese/</loc>
-    <lastmod>2025-09-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipebook/cuisines/</loc>
     <lastmod>2025-09-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/tags/easy/</loc>
@@ -23,9 +59,6 @@
     <loc>http://localhost:1313/recipebook/cuisines/korean/</loc>
     <lastmod>2025-09-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/recipebook/</loc>
-    <lastmod>2025-09-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/recipebook/recipes/</loc>
     <lastmod>2025-09-10T00:00:00+00:00</lastmod>
   </url><url>
@@ -36,9 +69,6 @@
     <lastmod>2025-09-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/tags/stew/</loc>
-    <lastmod>2025-09-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipebook/tags/</loc>
     <lastmod>2025-09-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/tags/with-rice/</loc>
@@ -200,16 +230,7 @@
     <loc>http://localhost:1313/recipebook/recipes/qeema_mince/</loc>
     <lastmod>2024-03-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/recipebook/cocktails/</loc>
-    <lastmod>2023-12-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipebook/tags/gin/</loc>
-    <lastmod>2023-12-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/recipebook/cocktails/gin_jam_fizz/</loc>
-    <lastmod>2023-12-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipebook/cuisines/string/</loc>
     <lastmod>2023-12-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/tags/burger/</loc>
