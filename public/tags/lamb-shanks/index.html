@@ -6,6 +6,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lamb Shanks - My site</title>
   <link rel="stylesheet" href="/recipebook/css/style.css">
+  <script>
+    let wakeLock = null;
+
+    async function toggleScreenLock() {
+      const button = document.getElementById('screen-lock-btn');
+
+      if (!wakeLock) {
+        try {
+          wakeLock = await navigator.wakeLock.request('screen');
+          button.textContent = '🔓 Screen Dimming Off';
+          button.style.backgroundColor = '#28a745';
+
+          wakeLock.addEventListener('release', () => {
+            button.textContent = '🔒 Prevent Screen Dimming';
+            button.style.backgroundColor = '#007bff';
+            wakeLock = null;
+          });
+        } catch (err) {
+          console.error('Failed to acquire wake lock:', err);
+          alert('Screen wake lock not supported on this device/browser');
+        }
+      } else {
+        wakeLock.release();
+        wakeLock = null;
+      }
+    }
+  </script>
 </head>
 <body><nav>
   <a href="/recipebook">

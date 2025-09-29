@@ -6,6 +6,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kimchi Chikki Stew - My site</title>
   <link rel="stylesheet" href="/recipebook/css/style.css">
+  <script>
+    let wakeLock = null;
+
+    async function toggleScreenLock() {
+      const button = document.getElementById('screen-lock-btn');
+
+      if (!wakeLock) {
+        try {
+          wakeLock = await navigator.wakeLock.request('screen');
+          button.textContent = '🔓 Screen Dimming Off';
+          button.style.backgroundColor = '#28a745';
+
+          wakeLock.addEventListener('release', () => {
+            button.textContent = '🔒 Prevent Screen Dimming';
+            button.style.backgroundColor = '#007bff';
+            wakeLock = null;
+          });
+        } catch (err) {
+          console.error('Failed to acquire wake lock:', err);
+          alert('Screen wake lock not supported on this device/browser');
+        }
+      } else {
+        wakeLock.release();
+        wakeLock = null;
+      }
+    }
+  </script>
 </head>
 <body><nav>
   <a href="/recipebook">
@@ -53,6 +80,7 @@
 
 </div>
 
+<button id="screen-lock-btn" onclick="toggleScreenLock()" style="background-color: #007bff; color: white; border: none; padding: 10px 15px; border-radius: 5px; cursor: pointer; margin: 10px 0; font-size: 14px;">🔒 Prevent Screen Dimming</button>
 <div><h2 id="ingredients">Ingredients</h2>
 <ul>
 <li>1 container kimchi (~700g), and don&rsquo;t skimp on quality</li>
