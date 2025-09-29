@@ -32,4 +32,5 @@ tags: ["chinese", "prawn", "egg", "tomato", "rice"]
 - Make a slurry by combining the corn starch and water, and add it. Stir until thickened
 - Add in the scrambled eggs.
 - Plate ontop of rice, garnish with the remaining spring onion.
+- Serve with rice
 

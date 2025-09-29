@@ -15,8 +15,6 @@ ingredients:
   - string
 instructions:
   - string
-usage:
-  - string
 notes:
   - string
 next:

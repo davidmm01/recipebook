@@ -15,4 +15,5 @@ tags: ["sauce", "rice"]
 
 ## Instructions
 - Combine all the ingredients in a jar. Keep sealed and store in the fridge.
+- Use approximately 1-1/2 to 2 tablespoons of sauce for every cup of rice in your fried rice recipe. Taste and add more if desired.
 

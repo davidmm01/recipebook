@@ -3,7 +3,7 @@ title: Firecracker Chicken
 date: 2024-06-08
 draft: false
 cuisines: ["fusion"]
-tags: ["mealprep", "spicy", "mince"]
+tags: ["mealprep", "spicy", "mince", "with rice"]
 ---
 
 ## Ingredients

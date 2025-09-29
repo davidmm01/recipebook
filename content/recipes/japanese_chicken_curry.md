@@ -3,7 +3,7 @@ title: Japanese Chicken Curry
 date: 2023-11-27
 draft: false
 cuisines: ["string"]
-tags: ["string"]
+tags: ["with rice", "curry"]
 ---
 
 ## Ingredients

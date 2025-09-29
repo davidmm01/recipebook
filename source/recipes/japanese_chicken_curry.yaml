@@ -9,7 +9,8 @@ source:
   submitter: string
 type: meal # meal/component/cocktail
 descriptors:
-  - string
+  - with rice
+  - curry
 cuisine: string
 ingredients:
   - 670g onions, sliced

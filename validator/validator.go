@@ -29,7 +29,6 @@ type Recipe struct {
 	Cuisine      string   `validate:"required"`
 	Ingredients  []string `validate:"required"`
 	Instructions []string `validate:"required"`
-	Usage        []string
 	Notes        []string
 	Next         []string
 }

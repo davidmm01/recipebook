@@ -19,8 +19,8 @@ tags: ["mince", "beef", "curry"]
 - 1 heaped tsp coriander powder
 - 1/2 tsp turmeric powder
 - 1 cup water
-- 1 green chilli
-- coriander leaves
+- 1 green chilli (optional)
+- coriander leaves (optional)
 
 ## Instructions
 - Heat oil in a skillet over high heat. Add onion and cook for 1 minute until it is starting to turn translucent. Add ginger and garlic and saute for 30 seconds until golden, don't let it burn!

@@ -12,6 +12,7 @@ descriptors:
   - mealprep
   - spicy
   - mince
+  - with rice
 cuisine: fusion
 ingredients:
   - 500g chicken mince
@@ -31,9 +32,6 @@ instructions:
   - add the chilli oil and cook the garlic, ginger and chilllis for 20 seconds, just take the edge off
   - add the chicken and cook
   - once chicken is done, add the sauce and reduce it down to desired thickness
-usage:
-  - serve with rice, broccoli and a boiled egg
 notes:
-  - string
+  - serve with rice, broccoli and a boiled egg
 next:
-  - string
