@@ -6,8 +6,15 @@
     <description>Recent content in Cuisines on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/recipebook/cuisines/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Indian</title>
+      <link>http://localhost:1313/recipebook/cuisines/indian/</link>
+      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/recipebook/cuisines/indian/</guid>
+      <description></description>
+    </item>
     <item>
       <title>String</title>
       <link>http://localhost:1313/recipebook/cuisines/string/</link>
@@ -27,13 +34,6 @@
       <link>http://localhost:1313/recipebook/cuisines/korean/</link>
       <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/recipebook/cuisines/korean/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Indian</title>
-      <link>http://localhost:1313/recipebook/cuisines/indian/</link>
-      <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/recipebook/cuisines/indian/</guid>
       <description></description>
     </item>
     <item>

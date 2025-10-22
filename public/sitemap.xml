@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/recipebook/cuisines/</loc>
+    <lastmod>2025-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/tags/curry/</loc>
+    <lastmod>2025-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/recipes/healthy_curry/</loc>
+    <lastmod>2025-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/cuisines/indian/</loc>
+    <lastmod>2025-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/</loc>
+    <lastmod>2025-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/recipes/</loc>
+    <lastmod>2025-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/tags/</loc>
+    <lastmod>2025-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/recipebook/tags/with-recipe/</loc>
+    <lastmod>2025-10-22T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/recipebook/cocktails/boulevardier/</loc>
     <lastmod>2025-09-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -14,9 +38,6 @@
     <loc>http://localhost:1313/recipebook/cocktails/</loc>
     <lastmod>2025-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/recipebook/cuisines/</loc>
-    <lastmod>2025-09-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/recipebook/tags/gin/</loc>
     <lastmod>2025-09-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -26,9 +47,6 @@
     <loc>http://localhost:1313/recipebook/cocktails/margarita/</loc>
     <lastmod>2025-09-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/recipebook/</loc>
-    <lastmod>2025-09-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/recipebook/cocktails/negroni/</loc>
     <lastmod>2025-09-28T00:00:00+00:00</lastmod>
   </url><url>
@@ -36,9 +54,6 @@
     <lastmod>2025-09-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/cuisines/string/</loc>
-    <lastmod>2025-09-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipebook/tags/</loc>
     <lastmod>2025-09-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/tags/tequila/</loc>
@@ -65,9 +80,6 @@
     <loc>http://localhost:1313/recipebook/cuisines/korean/</loc>
     <lastmod>2025-09-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/recipebook/recipes/</loc>
-    <lastmod>2025-09-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/recipebook/tags/soup/</loc>
     <lastmod>2025-09-10T00:00:00+00:00</lastmod>
   </url><url>
@@ -80,16 +92,10 @@
     <loc>http://localhost:1313/recipebook/tags/with-rice/</loc>
     <lastmod>2025-09-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/recipebook/tags/curry/</loc>
-    <lastmod>2025-08-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/recipebook/tags/fibre/</loc>
     <lastmod>2025-08-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/tags/healthy/</loc>
-    <lastmod>2025-08-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/recipebook/cuisines/indian/</loc>
     <lastmod>2025-08-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/recipebook/cuisines/italian/</loc>

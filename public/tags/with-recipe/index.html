@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html>
+  <head><script src="/recipebook/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=recipebook/livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>With Recipe - My site</title>
+  <link rel="stylesheet" href="/recipebook/css/style.css">
+  <script>
+    let wakeLock = null;
+
+    async function toggleScreenLock() {
+      const button = document.getElementById('screen-lock-btn');
+
+      if (!wakeLock) {
+        try {
+          wakeLock = await navigator.wakeLock.request('screen');
+          button.textContent = '🔓 Screen Dimming Off';
+          button.style.backgroundColor = '#28a745';
+
+          wakeLock.addEventListener('release', () => {
+            button.textContent = '🔒 Prevent Screen Dimming';
+            button.style.backgroundColor = '#007bff';
+            wakeLock = null;
+          });
+        } catch (err) {
+          console.error('Failed to acquire wake lock:', err);
+          alert('Screen wake lock not supported on this device/browser');
+        }
+      } else {
+        wakeLock.release();
+        wakeLock = null;
+      }
+    }
+  </script>
+</head>
+<body><nav>
+  <a href="/recipebook">
+    <span class="icon">🏠</span>
+    <span class="text">Home</span>
+  </a>
+  <span class="divider">|</span>
+  <a href="/recipebook/tags">
+    <span class="icon">🏷️</span>
+    <span class="text">Tags</span>
+  </a>
+  <a href="/recipebook/cuisines">
+    <span class="icon">🌍</span>
+    <span class="text">Cuisines</span>
+  </a>
+  <a href="/recipebook/recipes">
+    <span class="icon">🍽️</span>
+    <span class="text">Recipes</span>
+  </a>
+  <span class="divider">|</span>
+  <a href="/recipebook/cocktails">
+    <span class="icon">🍸</span>
+    <span class="text">Cocktails</span>
+  </a>
+</nav>
+<div id="content">
+<h1>With Recipe</h1>
+<ul class="page-list">
+<li>
+  <h3>
+    <a href="/recipebook/recipes/healthy_curry/">
+      Healthy Curry
+    </a>
+  </h3>
+
+  
+  <p>🌍 
+
+  <a href="http://localhost:1313/recipebook/cuisines/indian">indian</a>
+
+</p>
+  
+
+  
+  <p>🏷️ 
+  <a href="http://localhost:1313/recipebook/tags/curry">curry</a>
+
+  <a href="http://localhost:1313/recipebook/tags/with%20recipe">with recipe</a>
+
+</p>
+  
+</li>
+
+</ul>
+
+    </div><div>This is a footer</div>
+</body>
+</html>
